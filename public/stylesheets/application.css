@@ -1,14 +1,28 @@
 body {
   font-family: Helvetica, Verdana, sans-serif;
-  background: #dddddd;
-  color: #555555;
-  text-align: center; }
+  background: white;
+  color: #222222;
+  margin: 1em; }
 
 h1 {
-  margin-top: 22%;
-  font-size: 6em;
+  font-size: 2em;
+  margin: 0;
+  display: inline;
   font-variant: small-caps;
-  position: absolute;
-  left: 50%;
-  width: 500px;
-  margin-left: -250px; }
+  border-bottom: 2px dashed #38d84e; }
+
+a {
+  cursor: pointer; }
+  a:link, a:visited {
+    text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+footer {
+  font-size: 13px;
+  padding: 20px 0px;
+  display: block; }
+  footer a {
+    font-family: Helvetica;
+    font-size: 0.8em;
+    padding-right: 0.8em; }

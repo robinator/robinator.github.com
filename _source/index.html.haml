@@ -1,21 +1,26 @@
 - @layout = '_layouts/application'
 - @head = capture_haml do
-	%link{:rel=>'stylesheet', :href=>'public/stylesheets/madebylaw.css'}
+	%link{:rel => 'stylesheet', :href => 'public/stylesheets/application.css'}
+	//%script{:type => 'text/javascript', :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'}
+	//%script{:type => 'text/javascript', :src => 'public/javascripts/raphael-min.js'}
+	//%script{:type => 'text/javascript', :src => 'public/javascripts/application.js'}
 
-.top
-	%img{:src=>'public/images/logo.jpg'}
+%h1 Rob Law
 
-#about
-	%p
-		%span.italic Welcome!
-		I am web designer and developer based in San Francisco, California that specializes in tailor-made web design and web publishing solutions.	
-		Please peruse my portfolio of past design projects or check out my
-		%a.resume resume
-		and if you are interested in a quote, or have any further questions or comments, feel free to contact me at the address below.
+%h2 Projects
+%ul
+	%li
+		%a{:href => 'http://idealogue.heroku.com'} Idealogue
+		%p A site to store ideas, quotes, and other textual trinkets.
+	%li
+		%a{:href => 'http://robinator.github.com/snack'} Snack
+		%p A small (<= 125 lines) framework for building static websites.
+	%li
+		%a{:href => 'http://namethatkey.com'} Name that Key
+		%p A musicians tool to analyze chords and scales.
 
-#contact
-	%a{:href => "mailto:info@varietyour.com"}
-		%span.italic
-			info
-			%span.highlight> @
-			varietyour.com
+%h2 About
+%ul
+	%li
+		%a{:href => '/madebylaw.html'} Madebylaw
+		%p Web design and development.
