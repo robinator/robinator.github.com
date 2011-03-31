@@ -9,7 +9,9 @@ h1 {
   margin: 0;
   display: inline;
   font-variant: small-caps;
-  border-bottom: 2px dashed #38d84e; }
+  background-color: #38d84e;
+  padding: 0px 10px;
+  color: white; }
 
 a {
   cursor: pointer; }
