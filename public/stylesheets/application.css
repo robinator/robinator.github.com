@@ -12,6 +12,10 @@ h1 {
   background-color: #38d84e;
   padding: 0px 10px;
   color: white; }
+  h1:hover {
+    color: #38d84e;
+    background-color: white;
+    cursor: pointer; }
 
 a {
   cursor: pointer; }
