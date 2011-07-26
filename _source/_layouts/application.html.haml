@@ -13,3 +13,15 @@
       %a{:href => "http://jigsaw.w3.org/css-validator/check/referer"} CSS
       %br
       %a{:href => "http://robinator.github.com/snack/"} snack
+    :javascript
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4e2f3074613f5d3f2a000003');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
