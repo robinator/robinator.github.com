@@ -1,21 +1,21 @@
 - @layout = '_layouts/application'
 - @head = capture_haml do
-	%link{:rel=>'stylesheet', :href=>'public/stylesheets/madebylaw.css'}
+  %link{:rel=>'stylesheet', :href=>'public/stylesheets/madebylaw.css'}
 
 .top
-	%img{:src=>'public/images/logo.jpg'}
+  %img{:src=>'public/images/logo.jpg', :alt => 'logo'}
 
 #about
-	%p
-		%span.italic Welcome!
-		I am web designer and developer based in San Francisco, California that specializes in tailor-made web design and web publishing solutions.	
-		Please peruse my portfolio of past design projects or check out my
-		%a.resume resume
-		and if you are interested in a quote, or have any further questions or comments, feel free to contact me at the address below.
+  %p
+    %span.italic Welcome!
+    I am web designer and developer based in San Francisco, California that specializes in tailor-made web design and web publishing solutions. 
+    Please peruse my portfolio of past design projects or check out my
+    %a.resume resume
+    and if you are interested in a quote, or have any further questions or comments, feel free to contact me at the address below.
 
 #contact
-	%a{:href => "mailto:info@varietyour.com"}
-		%span.italic
-			info
-			%span.highlight> @
-			varietyour.com
+  %a{:href => "mailto:info@varietyour.com"}
+    %span.italic
+      info
+      %span.highlight> @
+      varietyour.com
