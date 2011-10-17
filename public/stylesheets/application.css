@@ -24,6 +24,9 @@ a {
   a:hover {
     text-decoration: underline; }
 
+p {
+  line-height: 2em; }
+
 footer {
   font-size: 13px;
   padding: 20px 0px;
