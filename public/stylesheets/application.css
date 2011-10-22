@@ -27,6 +27,10 @@ a {
 p {
   line-height: 2em; }
 
+li p {
+  line-height: 1em;
+  font-style: italic; }
+
 footer {
   font-size: 13px;
   padding: 20px 0px;
