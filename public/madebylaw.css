@@ -20,13 +20,12 @@ img {
 
 footer {
   font-size: 13px;
-  padding: 20px 0;
+  padding: 20px 0px;
   display: block; }
-  footer a {
-    color: #aaaaaa;
-    font-family: Helvetica;
-    font-size: 0.8em;
-    padding: 0 0.8em; }
+  footer p {
+    font-size: 0.8em; }
+    footer p a {
+      font-style: italic; }
 
 .highlight {
   color: #f38989; }
