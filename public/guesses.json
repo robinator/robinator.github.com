@@ -1,0 +1,22 @@
+max = [
+  {"Spurs": 5},
+  {"Grizzlies": 6},
+  {"Lakers": 6},
+  {"Thunder": 6},
+
+  {"Bulls": 5},
+  {"Celtics": 6},
+  {"Pacers": 6},
+  {"Heat": 5},
+
+  {"Spurs": 6},
+  {"Lakers": 7},
+
+  {"Bulls": 7},
+  {"Heat": 5},
+
+  {"Lakers": 7},
+  {"Heat": 7},
+
+  {"Lakers": 7},
+]

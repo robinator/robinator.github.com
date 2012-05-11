@@ -1,0 +1,24 @@
+body {
+  font-family: Helvetica, Verdana, sans-serif; }
+
+footer {
+  font-size: 13px;
+  padding: 20px 0px;
+  display: block; }
+  footer p {
+    font-size: 0.8em; }
+
+.node.edge circle {
+  display: none; }
+.node circle {
+  cursor: pointer;
+  fill: white;
+  stroke: steelblue;
+  stroke-width: 1.5px; }
+.node text {
+  font: 10px sans-serif; }
+
+path.link {
+  fill: none;
+  stroke: #cccccc;
+  stroke-width: 1.5px; }

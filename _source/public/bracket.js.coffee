@@ -9,7 +9,6 @@ class Bracket
     @data = 'public/bracket.json'
 
     @tree = d3.layout.tree().size [@height, @width]
-    @connector = @_elbow
 
     @vis = d3.select('#chart').append('svg')
              .attr('width', @width + @margin.right + @margin.left)
@@ -66,14 +65,14 @@ class Bracket
     # Update the nodes…
     node = @vis.selectAll('g.node')
       .data nodes, (d) => d.id || (d.id = ++@i)
- 
+
     # Enter any new nodes at the parent's previous position.
     nodeEnter = node.enter().append('g')
       .attr('class', 'node')
       .classed('edge', (d) -> d.children.length == 0)
       .classed('east', (d) -> d.isRight)
+      .classed('west', (d) -> !d.isRight)
       .attr('transform', (d) -> "translate(#{source.y0},#{source.x0})")
-      .on('click', (d) -> console.log(d))
 
     nodeEnter.append('circle')
       .attr('r', 1e-6)
@@ -116,13 +115,13 @@ class Bracket
       .attr('class', 'link')
       .attr('d', (d) =>
         o = { x: source.x0, y: source.y0 }
-        @connector({source: o, target: o})
+        @_elbow({source: o, target: o})
       )
 
     # Transition links to their new position.
     link.transition()
       .duration(@duration)
-      .attr('d', @connector)
+      .attr('d', @_elbow)
 
     # Transition exiting nodes to the parent's new position.
     link.exit().transition()
@@ -133,7 +132,7 @@ class Bracket
           o.y -= @halfWidth - (d.target.y - d.source.y)
         else
           o.y += @halfWidth - (d.target.y - d.source.y)
-        @connector({source: o, target: o})
+          @_elbow({source: o, target: o})
       )
       .remove()
 
