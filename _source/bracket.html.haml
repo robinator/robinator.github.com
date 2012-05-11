@@ -1,0 +1,10 @@
+- @layout = '_layouts/application'
+- @head = capture_haml do
+  %link{:rel => 'stylesheet', :href => 'public/bracket.css'}
+  %script{:src => 'http://d3js.org/d3.v2.min.js'}
+
+/ %h1 NBA Playoffs 2012
+#chart
+
+%script{:src => 'public/bracket.js'}
+/%script{:src => 'public/main.js'}
