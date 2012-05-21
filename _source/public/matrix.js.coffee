@@ -21,6 +21,8 @@ class Matrix
             # and1
             guess.score += 1
             pick[2] += 1
+          else
+            guess.pointsPossible -= 1
         else if actual[0] != '???' || pick[0] in eliminated
           # wrong
           pick[2] -= 1

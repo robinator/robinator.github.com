@@ -41,7 +41,7 @@
                 guess.score += 1;
                 _results1.push(pick[2] += 1);
               } else {
-                _results1.push(void 0);
+                _results1.push(guess.pointsPossible -= 1);
               }
             } else if (actual[0] !== '???' || (_ref2 = pick[0], __indexOf.call(eliminated, _ref2) >= 0)) {
               pick[2] -= 1;
