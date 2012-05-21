@@ -12,6 +12,8 @@
   %table
     %thead
       %th Name
+      %th Score
+      %th Possible
       %th{:colspan => 4} Round 1: West
       %th{:colspan => 4} Round 1: East
       %th{:colspan => 2} Round 2: West
@@ -20,5 +22,10 @@
       %th Finals: West
       %th The Finals
     %tbody
-/ %script{:src => 'public/bracket.js'}
-%script{:src => 'public/matrix.js'}  
+%script{:src => 'public/bracket.js'}
+%script{:src => 'public/matrix.js'}
+
+.modified
+  Updated at:
+  %script
+    document.write(document.lastModified);

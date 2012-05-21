@@ -19,6 +19,8 @@
       <table>
         <thead>
           <th>Name</th>
+          <th>Score</th>
+          <th>Possible</th>
           <th colspan='4'>Round 1: West</th>
           <th colspan='4'>Round 1: East</th>
           <th colspan='2'>Round 2: West</th>
@@ -30,8 +32,14 @@
         <tbody></tbody>
       </table>
     </div>
-    <!-- %script{:src => 'public/bracket.js'} -->
+    <script src='public/bracket.js'></script>
     <script src='public/matrix.js'></script>
+    <div class='modified'>
+      Updated at:
+      <script>
+        document.write(document.lastModified);
+      </script>
+    </div>
     <footer>
       <p><a href='http://robmadethis.com'>robmadethis</a>
       with
