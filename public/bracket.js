@@ -4,8 +4,6 @@
 
   Bracket = (function() {
 
-    Bracket.name = 'Bracket';
-
     function Bracket(options) {
       this.options = options;
       this._update = __bind(this._update, this);
@@ -17,14 +15,14 @@
       this._elbow = __bind(this._elbow, this);
 
       this.margin = this.options.margin;
-      this.width = 1024 - this.margin.left - this.margin.right;
+      this.width = window.innerWidth - this.margin.left - this.margin.right;
       this.halfWidth = this.width / 2;
       this.height = 500 - this.margin.top - this.margin.bottom;
       this.i = 0;
       this.duration = 500;
-      this.data = 'public/bracket.json';
+      this.data = 'public/data/bracket.json';
       this.tree = d3.layout.tree().size([this.height, this.width]);
-      this.vis = d3.select('#chart').append('svg').attr('width', this.width + this.margin.right + this.margin.left).attr('height', this.height + this.margin.top + this.margin.bottom).append('g').attr('transform', "translate(" + this.margin.left + "," + this.margin.top + ")");
+      this.vis = d3.select('#bracket').append('svg').attr('width', this.width + this.margin.right + this.margin.left).attr('height', this.height + this.margin.top + this.margin.bottom).append('g').attr('transform', "translate(" + this.margin.left + "," + this.margin.top + ")");
     }
 
     Bracket.prototype._elbow = function(d, i) {

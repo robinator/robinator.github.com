@@ -1,5 +1,6 @@
 body {
-  font-family: Helvetica, Verdana, sans-serif; }
+  font-family: Helvetica, Verdana, sans-serif;
+  text-align: center; }
 
 footer {
   font-size: 13px;
@@ -22,3 +23,26 @@ path.link {
   fill: none;
   stroke: #cccccc;
   stroke-width: 1.5px; }
+
+table {
+  border: none;
+  border-collapse: collapse;
+  margin: 0 auto;
+  table-layout: fixed; }
+  table td, table th {
+    border: none;
+    padding: 5px; }
+  table td {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    font-size: 11px;
+    background-color: #eeeeee; }
+    table td.name {
+      background-color: #cceeff; }
+    table td.right {
+      background-color: #abdda4; }
+      table td.right.and1 {
+        background-color: #66c2a5; }
+    table td.wrong {
+      background-color: #9e0142; }

@@ -2,7 +2,7 @@
   "name": "The Finals",
   "west": [
     {
-      "name": "???",
+      "name": "Spurs in 4",
       "west": [
         {
           "name": "Spurs in 4",
@@ -10,16 +10,18 @@
           "west": [{"name": "Spurs", "rank": 1}, {"name": "Jazz", "rank": 8}]
         },
         {
-          "name": "Clippers lead 3-2",
+          "name": "Clippers in 7",
+          "games": 7,
           "west": [{"name": "Grizzlies", "rank": 4}, {"name": "Clippers", "rank": 5}]
         }
       ]
     },
     {
-      "name": "???",
+      "name": "Thunder lead 3-1",
       "west": [
         {
-          "name": "Series tied 3-3",
+          "name": "Lakers in 7",
+          "games": 7,
           "west": [{"name": "Lakers", "rank": 3}, {"name": "Nuggets", "rank": 6}]
         },
         {
@@ -32,7 +34,7 @@
   ],
   "east": [
     {
-      "name": "???",
+      "name": "Series tied 2-2",
       "east": [
         {
           "name": "76ers in 6",
@@ -47,7 +49,7 @@
       ]
     },
     {
-      "name": "???",
+      "name": "Series tied 2-2",
       "east": [
         {
           "name": "Pacers in 5",

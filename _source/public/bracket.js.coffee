@@ -1,16 +1,16 @@
 class Bracket
   constructor: (@options) ->
     @margin = @options.margin
-    @width = 1024 - @margin.left - @margin.right
+    @width = window.innerWidth - @margin.left - @margin.right
     @halfWidth = @width / 2
     @height = 500 - @margin.top - @margin.bottom
     @i = 0
     @duration = 500
-    @data = 'public/bracket.json'
+    @data = 'public/data/bracket.json'
 
     @tree = d3.layout.tree().size [@height, @width]
 
-    @vis = d3.select('#chart').append('svg')
+    @vis = d3.select('#bracket').append('svg')
              .attr('width', @width + @margin.right + @margin.left)
              .attr('height', @height + @margin.top + @margin.bottom)
              .append('g')
@@ -28,7 +28,7 @@ class Bracket
     unless d.isRight
       l = d.y - @halfWidth
       l = @halfWidth - l
-    { x: d.x, y: l }
+    x: d.x, y: l
 
   _getChildren: (d) ->
     a = []

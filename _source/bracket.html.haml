@@ -2,7 +2,23 @@
 - @head = capture_haml do
   %link{:rel => 'stylesheet', :href => 'public/bracket.css'}
   %script{:src => 'http://d3js.org/d3.v2.min.js'}
+  %script{:src => 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'}
+  %script{:src => 'http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js'}
+  %script{:src => 'http://twitter.github.com/bootstrap/assets/js/bootstrap-popover.js'}
 
 %h1 NBA Playoffs 2012
-#chart
-%script{:src => 'public/bracket.js'}
+#bracket
+#matrix
+  %table
+    %thead
+      %th Name
+      %th{:colspan => 4} Round 1: West
+      %th{:colspan => 4} Round 1: East
+      %th{:colspan => 2} Round 2: West
+      %th{:colspan => 2} Round 2: East
+      %th Finals: West
+      %th Finals: West
+      %th The Finals
+    %tbody
+/ %script{:src => 'public/bracket.js'}
+%script{:src => 'public/matrix.js'}  

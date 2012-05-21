@@ -5,14 +5,33 @@
     <title>Rob Law - Computer Programmer</title>
     <link href='public/bracket.css' rel='stylesheet' />
     <script src='http://d3js.org/d3.v2.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script src='http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js'></script>
+    <script src='http://twitter.github.com/bootstrap/assets/js/bootstrap-popover.js'></script>
     <script type='text/javascript'>
       var mpq=[];mpq.push(["init","a4dbd0fbbd4f4f6fa1a71120ba6e6092"]);(function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
     </script>
   </head>
   <body>
     <h1>NBA Playoffs 2012</h1>
-    <div id='chart'></div>
-    <script src='public/bracket.js'></script>
+    <div id='bracket'></div>
+    <div id='matrix'>
+      <table>
+        <thead>
+          <th>Name</th>
+          <th colspan='4'>Round 1: West</th>
+          <th colspan='4'>Round 1: East</th>
+          <th colspan='2'>Round 2: West</th>
+          <th colspan='2'>Round 2: East</th>
+          <th>Finals: West</th>
+          <th>Finals: West</th>
+          <th>The Finals</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <!-- %script{:src => 'public/bracket.js'} -->
+    <script src='public/matrix.js'></script>
     <footer>
       <p><a href='http://robmadethis.com'>robmadethis</a>
       with

@@ -1,5 +1,6 @@
 body
   font-family: Helvetica, Verdana, sans-serif
+  text-align: center
 
 footer
   font-size: 13px
@@ -7,7 +8,6 @@ footer
   display: block
   p
     font-size: 0.8em
-
 
 .node
   &.edge
@@ -25,3 +25,26 @@ path.link
   fill: none
   stroke: #ccc
   stroke-width: 1.5px
+
+table
+  border: none
+  border-collapse: collapse
+  margin: 0 auto
+  table-layout: fixed
+  td, th
+    border: none
+    padding: 5px
+  td
+    width: 40px
+    height: 40px
+    border: 3px solid #fff
+    font-size: 11px
+    background-color: #eee
+    &.name
+      background-color: #CCEEFF
+    &.right
+      background-color: #ABDDA4
+      &.and1
+        background-color: #66C2A5
+    &.wrong
+      background-color: #9E0142
