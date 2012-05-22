@@ -65,7 +65,15 @@
           var td, tr;
           _this.guesses = json;
           _this._process();
-          tr = d3.select('tbody').selectAll('tr').data(_this.guesses).enter().append('tr');
+          tr = d3.select('tbody').selectAll('tr').data(_this.guesses).enter().append('tr').sort(function(a, b) {
+            if (a.score < b.score) {
+              return 1;
+            } else if (a.score === b.score) {
+              return 0;
+            } else {
+              return -1;
+            }
+          });
           return td = tr.selectAll('td').data(function(d) {
             var arr;
             arr = d.picks;

@@ -43,7 +43,7 @@ class Matrix
                .data(@guesses)
                .enter()
                .append('tr')
-               # .sort(function (a, b) { return a == null || b == null ? 0 : stringCompare(a[attrName], b[attrName]); });
+               .sort((a, b) -> if a.score < b.score then 1 else if a.score == b.score then 0 else -1)
 
         td = tr.selectAll('td')
                .data((d) ->
