@@ -3,6 +3,7 @@
   "west": [
     {
       "name": "Spurs in 4",
+      "games": 4,
       "west": [
         {
           "name": "Spurs in 4",
@@ -18,6 +19,7 @@
     },
     {
       "name": "Thunder in 5",
+      "games": 5,
       "west": [
         {
           "name": "Lakers in 7",
@@ -49,7 +51,7 @@
       ]
     },
     {
-      "name": "Series tied 2-2",
+      "name": "Heat lead 3-2",
       "east": [
         {
           "name": "Pacers in 5",
