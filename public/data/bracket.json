@@ -2,7 +2,8 @@
   "name": "The Finals",
   "west": [
     {
-      "name": "Thunder lead 3-2",
+      "name": "Thunder in 6",
+      "games": 6,
       "west": [
         {
           "name": "Spurs in 4",
