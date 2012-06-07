@@ -1,9 +1,9 @@
 - @layout = '_layouts/application'
 - @head = capture_haml do
-  %link{:rel=>'stylesheet', :href=>'public/madebylaw.css'}
+  %link{rel: 'stylesheet', href: 'public/madebylaw.css'}
 
 .top
-  %img{:src=>'public/logo.jpg', :alt => 'logo'}
+  %img{src: 'public/logo.jpg', alt: 'logo'}
 
 #about
   %p
@@ -14,7 +14,7 @@
     and if you are interested in a quote, or have any further questions or comments, feel free to contact me at the address below.
 
 #contact
-  %a{:href => 'mailto:rob@robmadethis.com'}
+  %a{href: 'mailto:rob@robmadethis.com'}
     %em
       rob
       %span.highlight> @
