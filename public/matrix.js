@@ -9,8 +9,8 @@
       this.options = options;
       this._process = __bind(this._process, this);
 
-      this.actualFile = 'public/data/actual.json';
-      this.guessesFile = 'public/data/guesses.json';
+      this.actualFile = this.options.actualFile;
+      this.guessesFile = this.options.guessesFile;
       this.vis = d3.select('#matrix');
     }
 
@@ -106,8 +106,6 @@
 
   })();
 
-  window.matrix = new Matrix;
-
-  matrix.draw();
+  window.Matrix = Matrix;
 
 }).call(this);

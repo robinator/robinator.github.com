@@ -14,13 +14,18 @@
 
       this._elbow = __bind(this._elbow, this);
 
-      this.margin = this.options.margin;
+      this.margin = this.options.margin || {
+        top: 30,
+        right: 10,
+        bottom: 10,
+        left: 10
+      };
       this.width = window.innerWidth - this.margin.left - this.margin.right;
       this.halfWidth = this.width / 2;
       this.height = 500 - this.margin.top - this.margin.bottom;
       this.i = 0;
       this.duration = 500;
-      this.data = 'public/data/bracket.json';
+      this.data = this.options.data;
       this.tree = d3.layout.tree().size([this.height, this.width]);
       this.vis = d3.select('#bracket').append('svg').attr('width', this.width + this.margin.right + this.margin.left).attr('height', this.height + this.margin.top + this.margin.bottom).append('g').attr('transform', "translate(" + this.margin.left + "," + this.margin.top + ")");
     }
@@ -114,7 +119,11 @@
       nodeEnter.append('circle').attr('r', 1e-6);
       nodeEnter.append('text').text(function(d) {
         if (d.rank != null) {
-          return "(" + d.rank + ") " + d.name;
+          if (d.isRight) {
+            return "" + d.name + " (" + d.rank + ")";
+          } else {
+            return "(" + d.rank + ") " + d.name;
+          }
         } else {
           return d.name;
         }
@@ -209,15 +218,6 @@
 
   })();
 
-  window.bracket = new Bracket({
-    margin: {
-      top: 30,
-      right: 10,
-      bottom: 10,
-      left: 10
-    }
-  });
-
-  bracket.draw();
+  window.Bracket = Bracket;
 
 }).call(this);

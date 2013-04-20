@@ -1,5 +1,6 @@
 {
-  "name": "The Finals",
+  "name": "Heat in 5",
+  "games": 5,
   "west": [
     {
       "name": "Thunder in 6",
@@ -42,7 +43,8 @@
   ],
   "east": [
     {
-      "name": "Celtics lead 3-2",
+      "name": "Heat in 7",
+      "games": 7,
       "east": [
         {
           "name": "Celtics in 7",

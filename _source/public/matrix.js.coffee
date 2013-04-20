@@ -1,7 +1,7 @@
 class Matrix
   constructor: (@options) ->
-    @actualFile = 'public/data/actual.json'
-    @guessesFile = 'public/data/guesses.json'
+    @actualFile = @options.actualFile
+    @guessesFile = @options.guessesFile
     @vis = d3.select('#matrix')
 
   _process: =>
@@ -68,5 +68,4 @@ class Matrix
                    "#{d[0]} in #{d[1]}"
                )
 
-window.matrix = new Matrix
-matrix.draw()
+window.Matrix = Matrix

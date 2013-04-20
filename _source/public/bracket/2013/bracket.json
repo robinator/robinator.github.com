@@ -1,0 +1,69 @@
+{
+  "name": "The Finals",
+  "west": [
+    {
+      "name": "",
+      "west": [
+        {
+          "name": "",
+          "west": [
+            {
+              "name": "",
+              "west": [{"name": "Thunder", "rank": 1}, {"name": "Rockets", "rank": 8}]
+            },
+            {
+              "name": "",
+              "west": [{"name": "Clippers", "rank": 4}, {"name": "Grizzlies", "rank": 5}]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "west": [
+            {
+              "name": "",
+              "west": [{"name": "Nuggets", "rank": 3}, {"name": "Warriors", "rank": 6}]
+            },
+            {
+              "name": "",
+              "west": [{"name": "Spurs", "rank": 2}, {"name": "Lakers", "rank": 7}]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "east": [
+    {
+      "name": "",
+      "east": [
+        {
+          "name": "",
+          "east": [
+            {
+              "name": "",
+              "east": [{"name": "Heat", "rank": 1}, {"name": "Bucks", "rank": 8}]
+            },
+            {
+              "name": "",
+              "east": [{"name": "Nets", "rank": 4}, {"name": "Bulls", "rank": 5}]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "east": [
+            {
+              "name": "",
+              "east": [{"name": "Pacers", "rank": 3}, {"name": "Hawks", "rank": 6}]
+            },
+            {
+              "name": "",
+              "east": [{"name": "Knicks", "rank": 2}, {"name": "Celtics", "rank": 7}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

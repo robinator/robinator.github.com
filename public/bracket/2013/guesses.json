@@ -1,0 +1,37 @@
+[
+  {"name":"andrew",
+  "picks": [
+    ["Thunder", 5], ["Grizzlies", 6], ["Nuggets", 6], ["Spurs", 5], ["Heat", 4],  ["Nets", 6], ["Pacers", 5], ["Knicks", 6],
+    ["Thunder", 6], ["Spurs", 5], ["Heat", 4], ["Pacers", 7],
+    ["Thunder", 6], ["Heat", 6],
+    ["Heat", 6]]
+  },
+  {"name":"max",
+  "picks": [
+    ["Thunder", 5], ["Grizzlies", 7], ["Nuggets", 6], ["Spurs", 6], ["Heat", 4],  ["Nets", 7], ["Pacers", 5], ["Knicks", 7],
+    ["Thunder", 6], ["Spurs", 6], ["Heat", 4], ["Knicks", 6],
+    ["Thunder", 6], ["Heat", 5],
+    ["Heat", 6]]
+  },
+  {"name":"tyler",
+  "picks": [
+    ["Thunder", 5], ["Clippers", 6], ["Nuggets", 5], ["Spurs", 4], ["Heat", 4],  ["Nets", 6], ["Pacers", 5], ["Knicks", 5],
+    ["Thunder", 5], ["Nuggets", 7], ["Heat", 5], ["Pacers", 6],
+    ["Thunder", 6], ["Heat", 5],
+    ["Heat", 7]]
+  },
+  {"name":"manuel",
+  "picks": [
+    ["Thunder", 5], ["Grizzlies", 7], ["Nuggets", 6], ["Spurs", 5], ["Heat", 4],  ["Bulls", 7], ["Pacers", 6], ["Knicks", 6],
+    ["Thunder", 6], ["Nuggets", 7], ["Heat", 5], ["Pacers", 7],
+    ["Thunder", 6], ["Heat", 6],
+    ["Thunder", 7]]
+  },
+  {"name":"rob",
+  "picks": [
+    ["Thunder", 5], ["Clippers", 7], ["Nuggets", 6], ["Spurs", 4], ["Heat", 4],  ["Bulls", 6], ["Pacers", 6], ["Knicks", 7],
+    ["Thunder", 5], ["Spurs", 6], ["Heat", 6], ["Knicks", 7],
+    ["Spurs", 7], ["Heat", 6],
+    ["Spurs", 7]]
+  }
+]

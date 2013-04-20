@@ -1,0 +1,36 @@
+- @layout = '../_layouts/application'
+- @head = capture_haml do
+  %link{rel: 'stylesheet', href: '/public/bracket.css'}
+  %script{src: 'http://d3js.org/d3.v2.min.js'}
+  %script{src: 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'}
+  %script{src: 'http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js'}
+  %script{src: 'http://twitter.github.com/bootstrap/assets/js/bootstrap-popover.js'}
+
+%h1 NBA Playoffs 2012
+#bracket
+#matrix
+  %table
+    %thead
+      %th Name
+      %th Score
+      %th Possible
+      %th{colspan: 4} Round 1: West
+      %th{colspan: 4} Round 1: East
+      %th{colspan: 2} Round 2: West
+      %th{colspan: 2} Round 2: East
+      %th Finals: West
+      %th Finals: East
+      %th The Finals
+    %tbody
+%script{src: '/public/bracket.js'}
+%script{src: '/public/matrix.js'}
+:javascript
+  window.bracket = new Bracket({data: '/public/bracket/2012/bracket.json'});
+  bracket.draw();
+
+  window.matrix = new Matrix({actualFile: '/public/bracket/2012/actual.json', guessesFile: '/public/bracket/2012/guesses.json'})
+  matrix.draw()
+
+.modified
+  Updated at:
+  %script document.write(document.lastModified);

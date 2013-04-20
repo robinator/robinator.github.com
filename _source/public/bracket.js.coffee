@@ -1,12 +1,12 @@
 class Bracket
   constructor: (@options) ->
-    @margin = @options.margin
+    @margin = @options.margin || { top: 30, right: 10, bottom: 10, left: 10 }
     @width = window.innerWidth - @margin.left - @margin.right
     @halfWidth = @width / 2
     @height = 500 - @margin.top - @margin.bottom
     @i = 0
     @duration = 500
-    @data = 'public/data/bracket.json'
+    @data = @options.data
 
     @tree = d3.layout.tree().size [@height, @width]
 
@@ -78,7 +78,12 @@ class Bracket
       .attr('r', 1e-6)
 
     nodeEnter.append('text')
-      .text((d) -> if d.rank? then "(#{d.rank}) #{d.name}" else d.name)
+      .text((d) ->
+        if d.rank?
+          if d.isRight then "#{d.name} (#{d.rank})" else "(#{d.rank}) #{d.name}"
+        else
+          d.name
+      )
       .style('fill-opacity', 1e-6)
 
     # Transition nodes to their new position.
@@ -151,11 +156,4 @@ class Bracket
       root.isRight = false
       @_update(root)
 
-window.bracket = new Bracket
-  margin:
-    top: 30
-    right: 10
-    bottom: 10
-    left: 10
-
-bracket.draw()
+window.Bracket = Bracket
