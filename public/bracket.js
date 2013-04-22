@@ -28,6 +28,7 @@
       this.data = this.options.data;
       this.tree = d3.layout.tree().size([this.height, this.width]);
       this.vis = d3.select('#bracket').append('svg').attr('width', this.width + this.margin.right + this.margin.left).attr('height', this.height + this.margin.top + this.margin.bottom).append('g').attr('transform', "translate(" + this.margin.left + "," + this.margin.top + ")");
+      this.draw();
     }
 
     Bracket.prototype._elbow = function(d, i) {

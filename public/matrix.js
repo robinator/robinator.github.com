@@ -12,6 +12,7 @@
       this.actualFile = this.options.actualFile;
       this.guessesFile = this.options.guessesFile;
       this.vis = d3.select('#matrix');
+      this.draw();
     }
 
     Matrix.prototype._process = function() {
