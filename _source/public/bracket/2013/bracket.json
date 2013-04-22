@@ -8,7 +8,7 @@
           "name": "",
           "west": [
             {
-              "name": "",
+              "name": "Thunder lead 1-0",
               "west": [{"name": "Thunder", "rank": 1}, {"name": "Rockets", "rank": 8}]
             },
             {
@@ -25,7 +25,7 @@
               "west": [{"name": "Nuggets", "rank": 3}, {"name": "Warriors", "rank": 6}]
             },
             {
-              "name": "",
+              "name": "Spurs lead 1-0",
               "west": [{"name": "Spurs", "rank": 2}, {"name": "Lakers", "rank": 7}]
             }
           ]
@@ -41,7 +41,7 @@
           "name": "",
           "east": [
             {
-              "name": "",
+              "name": "Heat lead 1-0",
               "east": [{"name": "Heat", "rank": 1}, {"name": "Bucks", "rank": 8}]
             },
             {
@@ -54,7 +54,7 @@
           "name": "",
           "east": [
             {
-              "name": "",
+              "name": "Pacers lead 1-0",
               "east": [{"name": "Pacers", "rank": 3}, {"name": "Hawks", "rank": 6}]
             },
             {
