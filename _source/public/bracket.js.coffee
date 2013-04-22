@@ -15,6 +15,7 @@ class Bracket
              .attr('height', @height + @margin.top + @margin.bottom)
              .append('g')
              .attr('transform', "translate(#{@margin.left},#{@margin.top})")
+    this.draw()
 
   _elbow: (d, i) =>
     source = @_calcLeft(d.source)

@@ -3,6 +3,7 @@ class Matrix
     @actualFile = @options.actualFile
     @guessesFile = @options.guessesFile
     @vis = d3.select('#matrix')
+    this.draw()
 
   _process: =>
     for guess in @guesses
