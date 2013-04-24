@@ -21,7 +21,7 @@
           "name": "",
           "west": [
             {
-              "name": "Nuggets lead 1-0",
+              "name": "Series tied 1-1",
               "west": [{"name": "Nuggets", "rank": 3}, {"name": "Warriors", "rank": 6}]
             },
             {
@@ -41,7 +41,7 @@
           "name": "",
           "east": [
             {
-              "name": "Heat lead 1-0",
+              "name": "Heat lead 2-0",
               "east": [{"name": "Heat", "rank": 1}, {"name": "Bucks", "rank": 8}]
             },
             {
@@ -58,7 +58,7 @@
               "east": [{"name": "Pacers", "rank": 3}, {"name": "Hawks", "rank": 6}]
             },
             {
-              "name": "Knicks lead 1-0",
+              "name": "Knicks lead 2-0",
               "east": [{"name": "Knicks", "rank": 2}, {"name": "Celtics", "rank": 7}]
             }
           ]
