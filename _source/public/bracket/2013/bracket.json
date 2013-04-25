@@ -8,7 +8,7 @@
           "name": "",
           "west": [
             {
-              "name": "Thunder lead 1-0",
+              "name": "Thunder lead 2-0",
               "west": [{"name": "Thunder", "rank": 1}, {"name": "Rockets", "rank": 8}]
             },
             {
@@ -25,7 +25,7 @@
               "west": [{"name": "Nuggets", "rank": 3}, {"name": "Warriors", "rank": 6}]
             },
             {
-              "name": "Spurs lead 1-0",
+              "name": "Spurs lead 2-0",
               "west": [{"name": "Spurs", "rank": 2}, {"name": "Lakers", "rank": 7}]
             }
           ]
@@ -54,7 +54,7 @@
           "name": "",
           "east": [
             {
-              "name": "Pacers lead 1-0",
+              "name": "Pacers lead 2-0",
               "east": [{"name": "Pacers", "rank": 3}, {"name": "Hawks", "rank": 6}]
             },
             {
