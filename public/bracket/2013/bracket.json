@@ -12,7 +12,7 @@
               "west": [{"name": "Thunder", "rank": 1}, {"name": "Rockets", "rank": 8}]
             },
             {
-              "name": "Clippers lead 2-0",
+              "name": "Clippers lead 2-1",
               "west": [{"name": "Clippers", "rank": 4}, {"name": "Grizzlies", "rank": 5}]
             }
           ]
@@ -41,11 +41,11 @@
           "name": "",
           "east": [
             {
-              "name": "Heat lead 2-0",
+              "name": "Heat lead 3-0",
               "east": [{"name": "Heat", "rank": 1}, {"name": "Bucks", "rank": 8}]
             },
             {
-              "name": "Series tied 1-1",
+              "name": "Bulls lead 2-1",
               "east": [{"name": "Nets", "rank": 4}, {"name": "Bulls", "rank": 5}]
             }
           ]
