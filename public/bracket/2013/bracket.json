@@ -26,6 +26,7 @@
             },
             {
               "name": "Spurs in 4",
+              "games": 4,
               "west": [{"name": "Spurs", "rank": 2}, {"name": "Lakers", "rank": 7}]
             }
           ]
@@ -42,6 +43,7 @@
           "east": [
             {
               "name": "Heat in 4",
+              "games": 4,
               "east": [{"name": "Heat", "rank": 1}, {"name": "Bucks", "rank": 8}]
             },
             {
