@@ -21,7 +21,8 @@
           "name": "",
           "west": [
             {
-              "name": "Warriors lead 3-2",
+              "name": "Warriors in 6",
+              "games": 6,
               "west": [{"name": "Nuggets", "rank": 3}, {"name": "Warriors", "rank": 6}]
             },
             {
@@ -47,7 +48,7 @@
               "east": [{"name": "Heat", "rank": 1}, {"name": "Bucks", "rank": 8}]
             },
             {
-              "name": "Bulls lead 3-2",
+              "name": "Series tied 3-3",
               "east": [{"name": "Nets", "rank": 4}, {"name": "Bulls", "rank": 5}]
             }
           ]
