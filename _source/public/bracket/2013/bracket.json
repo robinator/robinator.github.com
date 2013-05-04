@@ -8,11 +8,13 @@
           "name": "",
           "west": [
             {
-              "name": "Thunder lead 3-2",
+              "name": "Thunder in 6",
+              "games": 6,
               "west": [{"name": "Thunder", "rank": 1}, {"name": "Rockets", "rank": 8}]
             },
             {
-              "name": "Grizzlies lead 3-2",
+              "name": "Grizzlies in 6",
+              "games": 6,
               "west": [{"name": "Clippers", "rank": 4}, {"name": "Grizzlies", "rank": 5}]
             }
           ]
@@ -57,11 +59,13 @@
           "name": "",
           "east": [
             {
-              "name": "Pacers lead 3-2",
+              "name": "Pacers in 6",
+              "games": 6,
               "east": [{"name": "Pacers", "rank": 3}, {"name": "Hawks", "rank": 6}]
             },
             {
-              "name": "Knicks lead 3-2",
+              "name": "Knicks in 6",
+              "games": 6,
               "east": [{"name": "Knicks", "rank": 2}, {"name": "Celtics", "rank": 7}]
             }
           ]
