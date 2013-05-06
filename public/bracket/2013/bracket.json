@@ -5,7 +5,7 @@
       "name": "",
       "west": [
         {
-          "name": "",
+          "name": "Thunder lead 1-0",
           "west": [
             {
               "name": "Thunder in 6",
@@ -50,13 +50,14 @@
               "east": [{"name": "Heat", "rank": 1}, {"name": "Bucks", "rank": 8}]
             },
             {
-              "name": "Series tied 3-3",
+              "name": "Bulls in 7",
+              "games": 7,
               "east": [{"name": "Nets", "rank": 4}, {"name": "Bulls", "rank": 5}]
             }
           ]
         },
         {
-          "name": "",
+          "name": "Pacers lead 1-0",
           "east": [
             {
               "name": "Pacers in 6",
