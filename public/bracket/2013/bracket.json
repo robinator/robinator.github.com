@@ -5,7 +5,8 @@
       "name": "",
       "west": [
         {
-          "name": "Grizzlies lead 3-1",
+          "name": "Grizzlies in 5",
+          "games": 5,
           "west": [
             {
               "name": "Thunder in 6",
@@ -42,7 +43,8 @@
       "name": "",
       "east": [
         {
-          "name": "Heat lead 3-1",
+          "name": "Heat in 5",
+          "games": 5,
           "east": [
             {
               "name": "Heat in 4",
