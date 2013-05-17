@@ -21,7 +21,8 @@
           ]
         },
         {
-          "name": "Spurs lead 3-2",
+          "name": "Spurs in 6",
+          "games": 6,
           "west": [
             {
               "name": "Warriors in 6",
@@ -59,7 +60,7 @@
           ]
         },
         {
-          "name": "Pacers lead 3-1",
+          "name": "Pacers lead 3-2",
           "east": [
             {
               "name": "Pacers in 6",
