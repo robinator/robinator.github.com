@@ -60,7 +60,8 @@
           ]
         },
         {
-          "name": "Pacers lead 3-2",
+          "name": "Pacers in 6",
+          "games": 6,
           "east": [
             {
               "name": "Pacers in 6",
