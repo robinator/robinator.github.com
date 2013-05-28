@@ -2,7 +2,8 @@
   "name": "The Finals",
   "west": [
     {
-      "name": "Spurs lead 2-0",
+      "name": "Spurs in 4",
+      "games": 4,
       "west": [
         {
           "name": "Grizzlies in 5",
