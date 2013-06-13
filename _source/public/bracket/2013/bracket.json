@@ -42,7 +42,8 @@
   ],
   "east": [
     {
-      "name": "Heat lead 2-1",
+      "name": "Heat in 7",
+      "games": 7,
       "east": [
         {
           "name": "Heat in 5",
