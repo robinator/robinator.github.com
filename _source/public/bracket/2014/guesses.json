@@ -23,7 +23,7 @@
   {"name": "tyler",
   "picks": [
     ["Spurs", 4], ["Thunder", 5], ["Clippers", 7], ["Blazers", 7], ["Heat", 4],  ["Nets", 7], ["Pacers", 6], ["Wizards", 7],
-    ["Spurs", 6], ["Thunder", 5], ["Pacers", 7], ["Nets", 6],
+    ["Spurs", 6], ["Thunder", 5], ["Nets", 6], ["Pacers", 7],
     ["Spurs", 7], ["Pacers", 6],
     ["Spurs", 6]]
   },
@@ -37,14 +37,14 @@
   {"name": "rick",
   "picks": [
     ["Spurs", 6], ["Thunder", 7], ["Clippers", 7], ["Rockets", 7], ["Heat", 4],  ["Nets", 6], ["Pacers", 4], ["Wizards", 7],
-    ["Spurs", 6], ["Thunder", 7], ["Pacers", 6], ["Heat", 6],
+    ["Spurs", 6], ["Thunder", 7], ["Heat", 6], ["Pacers", 6],
     ["Thunder", 7], ["Heat", 6],
     ["Heat", 6]]
   },
   {"name": "manuel",
   "picks": [
     ["Mavericks", 6], ["Thunder", 5], ["Warriors", 7], ["Rockets", 5], ["Heat", 5],  ["Nets", 6], ["Pacers", 4], ["Bulls", 5],
-    ["Thunder", 6], ["Rockets", 6], ["Pacers", 6], ["Heat", 6],
+    ["Rockets", 6], ["Thunder", 6], ["Heat", 6], ["Pacers", 6],
     ["Thunder", 7], ["Pacers", 7],
     ["Pacers", 6]]
   },
