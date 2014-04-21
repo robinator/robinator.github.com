@@ -16,9 +16,9 @@
   {"name": "ben",
   "picks": [
     ["Spurs", 5], ["Thunder", 6], ["Clippers", 6], ["Rockets", 7], ["Heat", 4],  ["Raptors", 5], ["Pacers", 5], ["Bulls", 7],
-    ["", 0], ["", 0], ["", 0], ["", 0],
-    ["", 0], ["", 0],
-    ["", 0]]
+    ["Spurs", 5], ["Thunder", 7], ["Heat", 6], ["Pacers", 7],
+    ["Thunder", 7], ["Heat", 7],
+    ["Thunder", 6]]
   },
   {"name": "tyler",
   "picks": [
