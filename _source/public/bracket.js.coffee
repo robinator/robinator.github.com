@@ -1,7 +1,7 @@
 class Bracket
   constructor: (@options) ->
     @margin = @options.margin || { top: 30, right: 10, bottom: 10, left: 10 }
-    @width = window.innerWidth - @margin.left - @margin.right
+    @width = (window.innerWidth * 0.75) - @margin.left - @margin.right
     @halfWidth = @width / 2
     @height = 500 - @margin.top - @margin.bottom
     @i = 0
@@ -11,7 +11,7 @@ class Bracket
     @tree = d3.layout.tree().size [@height, @width]
 
     @vis = d3.select('#bracket').append('svg')
-             .attr('width', @width + @margin.right + @margin.left)
+             .attr('width', @width + @margin.left + @margin.right)
              .attr('height', @height + @margin.top + @margin.bottom)
              .append('g')
              .attr('transform', "translate(#{@margin.left},#{@margin.top})")
