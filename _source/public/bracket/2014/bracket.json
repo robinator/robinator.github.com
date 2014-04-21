@@ -1,0 +1,84 @@
+{
+  "name": "The Finals",
+  "games": null,
+  "west": [
+    {
+      "name": null,
+      "games": null,
+      "west": [
+        {
+          "name": "",
+          "games": null,
+          "west": [
+            {
+              "name": "Spurs lead 1-0",
+              "games": null,
+              "west": [{"name": "Spurs", "rank": 1}, {"name": "Mavericks", "rank": 8}]
+            },
+            {
+              "name": "Blazers lead 1-0",
+              "games": null,
+              "west": [{"name": "Rockets", "rank": 4}, {"name": "Blazers", "rank": 5}]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "games": null,
+          "west": [
+            {
+              "name": "Warriors lead 1-0",
+              "games": null,
+              "west": [{"name": "Clippers", "rank": 3}, {"name": "Warriors", "rank": 6}]
+            },
+            {
+              "name": "Thunder lead 1-0",
+              "games": null,
+              "west": [{"name": "Thunder", "rank": 2}, {"name": "Grizzlies", "rank": 7}]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "east": [
+    {
+      "name": "",
+      "games": null,
+      "east": [
+        {
+          "name": "",
+          "games": null,
+          "east": [
+            {
+              "name": "Hawks lead 1-0",
+              "games": null,
+              "east": [{"name": "Pacers", "rank": 1}, {"name": "Hawks", "rank": 8}]
+            },
+            {
+              "name": "Wizards lead 1-0",
+              "games": null,
+              "east": [{"name": "Bulls", "rank": 4}, {"name": "Wizards", "rank": 5}]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "games": null,
+          "east": [
+            {
+              "name": "Nets lead 1-0",
+              "games": null,
+              "east": [{"name": "Raptors", "rank": 3}, {"name": "Nets", "rank": 6}]
+            },
+            {
+              "name": "Heat lead 1-0",
+              "games": null,
+              "east": [{"name": "Heat", "rank": 2}, {"name": "Bobcats", "rank": 7}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {"name": "andrew",
+  "picks": [
+    ["Spurs", 4], ["Thunder", 5], ["Clippers", 5], ["Rockets", 5], ["Heat", 4],  ["Nets", 7], ["Pacers", 4], ["Wizards", 7],
+    ["Spurs", 7], ["Thunder", 5], ["Heat", 7], ["Pacers", 6],
+    ["Thunder", 7], ["Pacers", 7],
+    ["Thunder", 7]]
+  },
+  {"name": "max",
+  "picks": [
+    ["Spurs", 5], ["Thunder", 7], ["Clippers", 6], ["Rockets", 7], ["Heat", 5],  ["Raptors", 7], ["Pacers", 6], ["Bulls", 7],
+    ["Spurs", 6], ["Clippers", 6], ["Heat", 5], ["Pacers", 7],
+    ["Spurs", 7], ["Heat", 6],
+    ["Spurs", 7]]
+  },
+  {"name": "ben",
+  "picks": [
+    ["Spurs", 5], ["Thunder", 6], ["Clippers", 6], ["Rockets", 7], ["Heat", 4],  ["Raptors", 5], ["Pacers", 5], ["Bulls", 7],
+    ["", 0], ["", 0], ["", 0], ["", 0],
+    ["", 0], ["", 0],
+    ["", 0]]
+  },
+  {"name": "tyler",
+  "picks": [
+    ["Spurs", 4], ["Thunder", 5], ["Clippers", 7], ["Blazers", 7], ["Heat", 4],  ["Nets", 7], ["Pacers", 6], ["Wizards", 7],
+    ["Spurs", 6], ["Thunder", 5], ["Pacers", 7], ["Nets", 6],
+    ["Spurs", 7], ["Pacers", 6],
+    ["Spurs", 6]]
+  },
+  {"name": "kai",
+  "picks": [
+    ["Spurs", 5], ["Thunder", 6], ["Clippers", 7], ["Blazers", 6], ["Heat", 4],  ["Raptors", 6], ["Pacers", 5], ["Bulls", 6],
+    ["Spurs", 6], ["Thunder", 7], ["Heat", 6], ["Pacers", 6],
+    ["Spurs", 7], ["Pacers", 7],
+    ["Spurs", 6]]
+  },
+  {"name": "rick",
+  "picks": [
+    ["Spurs", 6], ["Thunder", 7], ["Clippers", 7], ["Rockets", 7], ["Heat", 4],  ["Nets", 6], ["Pacers", 4], ["Wizards", 7],
+    ["Spurs", 6], ["Thunder", 7], ["Pacers", 6], ["Heat", 6],
+    ["Thunder", 7], ["Heat", 6],
+    ["Heat", 6]]
+  },
+  {"name": "manuel",
+  "picks": [
+    ["Mavericks", 6], ["Thunder", 5], ["Warriors", 7], ["Rockets", 5], ["Heat", 5],  ["Nets", 6], ["Pacers", 4], ["Bulls", 5],
+    ["Thunder", 6], ["Rockets", 6], ["Pacers", 6], ["Heat", 6],
+    ["Thunder", 7], ["Pacers", 7],
+    ["Pacers", 6]]
+  },
+  {"name": "rob",
+  "picks": [
+    ["Spurs", 4], ["Thunder", 6], ["Clippers", 6], ["Blazers", 7], ["Heat", 4],  ["Nets", 6], ["Pacers", 5], ["Bulls", 5],
+    ["Spurs", 6], ["Clippers", 7], ["Heat", 7], ["Pacers", 7],
+    ["Spurs", 6], ["Heat", 7],
+    ["Spurs", 7]]
+  }
+]

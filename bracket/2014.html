@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Rob Law - Computer Programmer</title>
+    <link href='/public/bracket.css' rel='stylesheet'>
+    <script src='http://d3js.org/d3.v2.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+  </head>
+  <body>
+    <h1>NBA Playoffs 2013</h1>
+    <div id='bracket'></div>
+    <div id='matrix'>
+      <table>
+        <thead>
+          <th>Name</th>
+          <th>Score</th>
+          <th>Possible</th>
+          <th colspan='4'>Round 1: West</th>
+          <th colspan='4'>Round 1: East</th>
+          <th colspan='2'>Round 2: West</th>
+          <th colspan='2'>Round 2: East</th>
+          <th>Finals: West</th>
+          <th>Finals: East</th>
+          <th>The Finals</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src='/public/bracket.js'></script>
+    <script src='/public/matrix.js'></script>
+    <script>
+      window.bracket = new Bracket({data: '/public/bracket/2014/bracket.json'});
+      window.matrix = new Matrix({actualFile: '/public/bracket/2014/actual.json', guessesFile: '/public/bracket/2014/guesses.json'})
+    </script>
+    <div class='modified'>
+      Updated at:
+      <script>document.write(document.lastModified);</script>
+    </div>
+    <footer>
+      <p><a href='http://robmadethis.com'>robmadethis</a>
+      with
+      <a href='http://validator.w3.org/check/referer'>HTML</a>,      <a href='http://jigsaw.w3.org/css-validator/check/referer?profile=css3'>CSS</a>, and      <a href='http://robmadethis.com/snack'>snack</a></p>
+    </footer>
+    <script>
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '53483274eddd5b3c27000c77');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+  </body>
+</html>
