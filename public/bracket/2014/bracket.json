@@ -27,12 +27,12 @@
           "games": null,
           "west": [
             {
-              "name": "Warriors lead 1-0",
+              "name": "Series tied 1-1",
               "games": null,
               "west": [{"name": "Clippers", "rank": 3}, {"name": "Warriors", "rank": 6}]
             },
             {
-              "name": "Thunder lead 1-0",
+              "name": "Series tied 1-1",
               "games": null,
               "west": [{"name": "Thunder", "rank": 2}, {"name": "Grizzlies", "rank": 7}]
             }
