@@ -51,12 +51,12 @@
           "games": null,
           "east": [
             {
-              "name": "Hawks lead 1-0",
+              "name": "Series tied 1-1",
               "games": null,
               "east": [{"name": "Pacers", "rank": 1}, {"name": "Hawks", "rank": 8}]
             },
             {
-              "name": "Wizards lead 1-0",
+              "name": "Wizards lead 2-0",
               "games": null,
               "east": [{"name": "Bulls", "rank": 4}, {"name": "Wizards", "rank": 5}]
             }
@@ -67,7 +67,7 @@
           "games": null,
           "east": [
             {
-              "name": "Nets lead 1-0",
+              "name": "Series tied 1-1",
               "games": null,
               "east": [{"name": "Raptors", "rank": 3}, {"name": "Nets", "rank": 6}]
             },
