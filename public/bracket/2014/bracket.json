@@ -11,12 +11,12 @@
           "games": null,
           "west": [
             {
-              "name": "Series tied 1-1",
+              "name": "Mavericks lead 2-1",
               "games": null,
               "west": [{"name": "Spurs", "rank": 1}, {"name": "Mavericks", "rank": 8}]
             },
             {
-              "name": "Blazers lead 2-1",
+              "name": "Blazers lead 3-1",
               "games": null,
               "west": [{"name": "Rockets", "rank": 4}, {"name": "Blazers", "rank": 5}]
             }
@@ -27,12 +27,12 @@
           "games": null,
           "west": [
             {
-              "name": "Clippers lead 2-1",
+              "name": "Series tied 2-2",
               "games": null,
               "west": [{"name": "Clippers", "rank": 3}, {"name": "Warriors", "rank": 6}]
             },
             {
-              "name": "Grizzlies lead 2-1",
+              "name": "Series tied 2-2",
               "games": null,
               "west": [{"name": "Thunder", "rank": 2}, {"name": "Grizzlies", "rank": 7}]
             }
@@ -51,12 +51,12 @@
           "games": null,
           "east": [
             {
-              "name": "Hawks lead 2-1",
+              "name": "Series tied 2-2",
               "games": null,
               "east": [{"name": "Pacers", "rank": 1}, {"name": "Hawks", "rank": 8}]
             },
             {
-              "name": "Wizards lead 2-1",
+              "name": "Wizards lead 3-1",
               "games": null,
               "east": [{"name": "Bulls", "rank": 4}, {"name": "Wizards", "rank": 5}]
             }
@@ -67,12 +67,12 @@
           "games": null,
           "east": [
             {
-              "name": "Nets lead 2-1",
+              "name": "Series tied 2-2",
               "games": null,
               "east": [{"name": "Raptors", "rank": 3}, {"name": "Nets", "rank": 6}]
             },
             {
-              "name": "Heat lead 2-0",
+              "name": "Heat lead 3-0",
               "games": null,
               "east": [{"name": "Heat", "rank": 2}, {"name": "Bobcats", "rank": 7}]
             }
