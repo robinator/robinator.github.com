@@ -11,7 +11,7 @@
           "games": null,
           "west": [
             {
-              "name": "Mavericks lead 2-1",
+              "name": "Series tied 2-2",
               "games": null,
               "west": [{"name": "Spurs", "rank": 1}, {"name": "Mavericks", "rank": 8}]
             },
@@ -51,7 +51,7 @@
           "games": null,
           "east": [
             {
-              "name": "Series tied 2-2",
+              "name": "Hawks lead 3-2",
               "games": null,
               "east": [{"name": "Pacers", "rank": 1}, {"name": "Hawks", "rank": 8}]
             },
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "?? vs. Heat",
           "games": null,
           "east": [
             {
@@ -72,8 +72,8 @@
               "east": [{"name": "Raptors", "rank": 3}, {"name": "Nets", "rank": 6}]
             },
             {
-              "name": "Heat lead 3-0",
-              "games": null,
+              "name": "Heat win 4-0",
+              "games": 4,
               "east": [{"name": "Heat", "rank": 2}, {"name": "Bobcats", "rank": 7}]
             }
           ]
