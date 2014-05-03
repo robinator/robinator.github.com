@@ -7,17 +7,17 @@
       "games": null,
       "west": [
         {
-          "name": "",
+          "name": "?? vs. Blazers",
           "games": null,
           "west": [
             {
-              "name": "Spurs lead 3-2",
-              "games": null,
+              "name": "Series tied 3-3",
+              "games": 7,
               "west": [{"name": "Spurs", "rank": 1}, {"name": "Mavericks", "rank": 8}]
             },
             {
-              "name": "Blazers lead 3-2",
-              "games": null,
+              "name": "Blazers win 4-2",
+              "games": 6,
               "west": [{"name": "Rockets", "rank": 4}, {"name": "Blazers", "rank": 5}]
             }
           ]
@@ -27,13 +27,13 @@
           "games": null,
           "west": [
             {
-              "name": "Clippers lead 3-2",
-              "games": null,
+              "name": "Series tied 3-3",
+              "games": 7,
               "west": [{"name": "Clippers", "rank": 3}, {"name": "Warriors", "rank": 6}]
             },
             {
-              "name": "Grizzlies lead 3-2",
-              "games": null,
+              "name": "Series tied 3-3",
+              "games": 7,
               "west": [{"name": "Thunder", "rank": 2}, {"name": "Grizzlies", "rank": 7}]
             }
           ]
@@ -51,8 +51,8 @@
           "games": null,
           "east": [
             {
-              "name": "Hawks lead 3-2",
-              "games": null,
+              "name": "Series tied 3-3",
+              "games": 7,
               "east": [{"name": "Pacers", "rank": 1}, {"name": "Hawks", "rank": 8}]
             },
             {
@@ -67,8 +67,8 @@
           "games": null,
           "east": [
             {
-              "name": "Raptors lead 3-2",
-              "games": null,
+              "name": "Series tied 3-3",
+              "games": 7,
               "east": [{"name": "Raptors", "rank": 3}, {"name": "Nets", "rank": 6}]
             },
             {
