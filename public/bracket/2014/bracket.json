@@ -23,16 +23,16 @@
           ]
         },
         {
-          "name": "",
+          "name": "Clippers vs. Thunder",
           "games": null,
           "west": [
             {
-              "name": "Series tied 3-3",
+              "name": "Clippers win 4-3",
               "games": 7,
               "west": [{"name": "Clippers", "rank": 3}, {"name": "Warriors", "rank": 6}]
             },
             {
-              "name": "Series tied 3-3",
+              "name": "Thunder win 4-3",
               "games": 7,
               "west": [{"name": "Thunder", "rank": 2}, {"name": "Grizzlies", "rank": 7}]
             }
@@ -47,11 +47,11 @@
       "games": null,
       "east": [
         {
-          "name": "?? vs. Wizards",
+          "name": "Wizards vs. Pacers",
           "games": null,
           "east": [
             {
-              "name": "Series tied 3-3",
+              "name": "Pacers win 4-3",
               "games": 7,
               "east": [{"name": "Pacers", "rank": 1}, {"name": "Hawks", "rank": 8}]
             },

@@ -1,9 +1,8 @@
 class Bracket
   constructor: (@options) ->
-    @margin = @options.margin || { top: 30, right: 10, bottom: 10, left: 10 }
-    @width = (window.innerWidth * 0.75) - @margin.left - @margin.right
+    @width = window.innerWidth
     @halfWidth = @width / 2
-    @height = 500 - @margin.top - @margin.bottom
+    @height = 500
     @i = 0
     @duration = 500
     @data = @options.data
@@ -11,10 +10,9 @@ class Bracket
     @tree = d3.layout.tree().size [@height, @width]
 
     @vis = d3.select('#bracket').append('svg')
-             .attr('width', @width + @margin.left + @margin.right)
-             .attr('height', @height + @margin.top + @margin.bottom)
+             .attr('width', @width)
+             .attr('height', @height)
              .append('g')
-             .attr('transform', "translate(#{@margin.left},#{@margin.top})")
     this.draw()
 
   _elbow: (d, i) =>
