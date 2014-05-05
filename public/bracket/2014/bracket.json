@@ -11,7 +11,7 @@
           "games": null,
           "west": [
             {
-              "name": "Series tied 3-3",
+              "name": "Spurs win 4-3",
               "games": 7,
               "west": [{"name": "Spurs", "rank": 1}, {"name": "Mavericks", "rank": 8}]
             },
@@ -63,11 +63,11 @@
           ]
         },
         {
-          "name": "?? vs. Heat",
+          "name": "Nets vs. Heat",
           "games": null,
           "east": [
             {
-              "name": "Series tied 3-3",
+              "name": "Nets win 4-3",
               "games": 7,
               "east": [{"name": "Raptors", "rank": 3}, {"name": "Nets", "rank": 6}]
             },

@@ -1,6 +1,6 @@
 class Bracket
   constructor: (@options) ->
-    @width = window.innerWidth
+    @width = window.innerWidth * 0.95
     @halfWidth = @width / 2
     @height = 500
     @i = 0
