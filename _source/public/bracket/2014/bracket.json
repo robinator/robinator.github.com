@@ -3,12 +3,12 @@
   "games": null,
   "west": [
     {
-      "name": null,
+      "name": "Thunder vs. Spurs",
       "games": null,
       "west": [
         {
-          "name": "?? vs. Blazers",
-          "games": null,
+          "name": "Spurs vs. Blazers",
+          "games": 5,
           "west": [
             {
               "name": "Spurs win 4-3",
@@ -24,7 +24,7 @@
         },
         {
           "name": "Clippers vs. Thunder",
-          "games": null,
+          "games": 6,
           "west": [
             {
               "name": "Clippers win 4-3",
@@ -43,12 +43,12 @@
   ],
   "east": [
     {
-      "name": "",
+      "name": "Heat vs. Pacers",
       "games": null,
       "east": [
         {
           "name": "Wizards vs. Pacers",
-          "games": null,
+          "games": 6,
           "east": [
             {
               "name": "Pacers win 4-3",
@@ -64,7 +64,7 @@
         },
         {
           "name": "Nets vs. Heat",
-          "games": null,
+          "games": 5,
           "east": [
             {
               "name": "Nets win 4-3",
