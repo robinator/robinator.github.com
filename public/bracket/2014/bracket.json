@@ -1,10 +1,10 @@
 {
-  "name": "The Finals",
+  "name": "Heat vs. Spurs",
   "games": null,
   "west": [
     {
       "name": "Thunder vs. Spurs",
-      "games": null,
+      "games": 6,
       "west": [
         {
           "name": "Spurs vs. Blazers",
@@ -44,7 +44,7 @@
   "east": [
     {
       "name": "Heat vs. Pacers",
-      "games": null,
+      "games": 6,
       "east": [
         {
           "name": "Wizards vs. Pacers",
