@@ -1,0 +1,84 @@
+{
+  "name": "The Finals",
+  "games": null,
+  "west": [
+    {
+      "name": "Western Conference Finals",
+      "games": null,
+      "west": [
+        {
+          "name": "Round 2",
+          "games": null,
+          "west": [
+            {
+              "name": "Warriors lead 1-0",
+              "games": null,
+              "west": [{"name": "Warriors", "rank": 1}, {"name": "Blazers", "rank": 8}]
+            },
+            {
+              "name": "Jazz lead 1-0",
+              "games": null,
+              "west": [{"name": "Clippers", "rank": 4}, {"name": "Jazz", "rank": 5}]
+            }
+          ]
+        },
+        {
+          "name": "Round 2",
+          "games": null,
+          "west": [
+            {
+              "name": "Rockets lead 1-0",
+              "games": null,
+              "west": [{"name": "Rockets", "rank": 3}, {"name": "Thunder", "rank": 6}]
+            },
+            {
+              "name": "Spurs lead 1-0",
+              "games": null,
+              "west": [{"name": "Spurs", "rank": 2}, {"name": "Grizzlies", "rank": 7}]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "east": [
+    {
+      "name": "Eastern Conference Finals",
+      "games": null,
+      "east": [
+        {
+          "name": "Round 2",
+          "games": null,
+          "east": [
+            {
+              "name": "Bulls lead 1-0",
+              "games": null,
+              "east": [{"name": "Celtics", "rank": 1}, {"name": "Bulls", "rank": 8}]
+            },
+            {
+              "name": "Wizards lead 1-0",
+              "games": null,
+              "east": [{"name": "Wizards", "rank": 4}, {"name": "Hawks", "rank": 5}]
+            }
+          ]
+        },
+        {
+          "name": "Round 2",
+          "games": null,
+          "east": [
+            {
+              "name": "Bucks lead 1-0",
+              "games": null,
+              "east": [{"name": "Raptors", "rank": 3}, {"name": "Bucks", "rank": 6}]
+            },
+            {
+              "name": "Cavs lead 1-0",
+              "games": null,
+              "east": [{"name": "Cavs", "rank": 2}, {"name": "Pacers", "rank": 7}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
