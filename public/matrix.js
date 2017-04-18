@@ -1,12 +1,12 @@
 (function() {
   var Matrix,
-    __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
-    __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
+    bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
+    indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
   Matrix = (function() {
     function Matrix(options) {
       this.options = options;
-      this._process = __bind(this._process, this);
+      this._process = bind(this._process, this);
       this.actualFile = this.options.actualFile;
       this.guessesFile = this.options.guessesFile;
       this.vis = d3.select('#matrix');
@@ -14,20 +14,20 @@
     }
 
     Matrix.prototype._process = function() {
-      var actual, eliminated, guess, i, pick, _i, _len, _ref, _results;
-      _ref = this.guesses;
-      _results = [];
-      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-        guess = _ref[_i];
+      var actual, eliminated, guess, i, j, len, pick, ref, results;
+      ref = this.guesses;
+      results = [];
+      for (j = 0, len = ref.length; j < len; j++) {
+        guess = ref[j];
         guess.score = 0;
         guess.pointsPossible = 30;
         eliminated = [];
-        _results.push((function() {
-          var _j, _len1, _ref1, _ref2, _results1;
-          _ref1 = guess.picks;
-          _results1 = [];
-          for (i = _j = 0, _len1 = _ref1.length; _j < _len1; i = ++_j) {
-            pick = _ref1[i];
+        results.push((function() {
+          var k, len1, ref1, ref2, results1;
+          ref1 = guess.picks;
+          results1 = [];
+          for (i = k = 0, len1 = ref1.length; k < len1; i = ++k) {
+            pick = ref1[i];
             actual = this.actual[i];
             if (actual[1] !== '???') {
               eliminated.push(actual[1]);
@@ -38,21 +38,21 @@
               pick[2] += 1;
               if (pick[1] === actual[2]) {
                 guess.score += 1;
-                _results1.push(pick[2] += 1);
+                results1.push(pick[2] += 1);
               } else {
-                _results1.push(guess.pointsPossible -= 1);
+                results1.push(guess.pointsPossible -= 1);
               }
-            } else if (actual[0] !== '???' || (_ref2 = pick[0], __indexOf.call(eliminated, _ref2) >= 0)) {
+            } else if (actual[0] !== '???' || (ref2 = pick[0], indexOf.call(eliminated, ref2) >= 0)) {
               pick[2] -= 1;
-              _results1.push(guess.pointsPossible -= 2);
+              results1.push(guess.pointsPossible -= 2);
             } else {
-              _results1.push(void 0);
+              results1.push(void 0);
             }
           }
-          return _results1;
+          return results1;
         }).call(this));
       }
-      return _results;
+      return results;
     };
 
     Matrix.prototype.draw = function() {
@@ -88,13 +88,17 @@
               return typeof d === 'object' && d[2] === 2;
             }).classed('name', function(d) {
               return typeof d === 'string';
+            }).attr('class', function(d) {
+              if (typeof d === 'object') {
+                return d[0].toLowerCase();
+              }
             }).text(function(d) {
               if (typeof d === 'string') {
                 return d;
               } else if (typeof d === 'number') {
                 return d;
               } else {
-                return "" + d[0] + " in " + d[1];
+                return d[0] + " in " + d[1];
               }
             });
           });
