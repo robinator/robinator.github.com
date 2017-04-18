@@ -32,7 +32,7 @@
               "west": [{"name": "Rockets", "rank": 3}, {"name": "Thunder", "rank": 6}]
             },
             {
-              "name": "Spurs lead 1-0",
+              "name": "Spurs lead 2-0",
               "games": null,
               "west": [{"name": "Spurs", "rank": 2}, {"name": "Grizzlies", "rank": 7}]
             }
@@ -72,7 +72,7 @@
               "east": [{"name": "Raptors", "rank": 3}, {"name": "Bucks", "rank": 6}]
             },
             {
-              "name": "Cavs lead 1-0",
+              "name": "Cavs lead 2-0",
               "games": null,
               "east": [{"name": "Cavs", "rank": 2}, {"name": "Pacers", "rank": 7}]
             }

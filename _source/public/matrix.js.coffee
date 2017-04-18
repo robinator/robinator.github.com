@@ -58,8 +58,9 @@ class Matrix
                .append('td')
                .classed('wrong', (d) -> typeof d == 'object' && d[2] == -1)
                .classed('right', (d) -> typeof d == 'object' && d[2] == 1)
-               .classed('and1', (d) -> typeof d == 'object' && d[2] == 2)
-               .classed('name', (d) -> typeof d == 'string')
+               .classed('and1',  (d) -> typeof d == 'object' && d[2] == 2)
+               .classed('name',  (d) -> typeof d == 'string')
+               .attr('class',    (d) -> d[0].toLowerCase() if typeof d == 'object')
                .text((d) =>
                  if typeof d == 'string'
                    d

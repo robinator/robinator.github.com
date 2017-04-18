@@ -56,6 +56,50 @@ table {
       background-color: #66ff74; }
     table td.wrong {
       background-color: #ffd0cc; }
+    table td.warriors {
+      font-weight: bold;
+      color: #04529c;
+      background-color: #ffcc33; }
+    table td.cavs {
+      font-weight: bold;
+      color: gold;
+      background-color: #b3121d; }
+    table td.celtics {
+      font-weight: bold;
+      color: white;
+      background-color: #009e60; }
+    table td.raptors {
+      font-weight: bold;
+      color: white;
+      background-color: #2a2185; }
+    table td.spurs {
+      font-weight: bold;
+      color: #dae0e0;
+      background-color: black; }
+    table td.wizards {
+      font-weight: bold;
+      color: #f22c53;
+      background-color: #002244; }
+    table td.jazz {
+      font-weight: bold;
+      color: #ff9100;
+      background-color: #00275d; }
+    table td.clippers {
+      font-weight: bold;
+      color: white;
+      background-color: #ee2944; }
+    table td.rockets {
+      font-weight: bold;
+      color: #ce1138;
+      background-color: #cccccc; }
+    table td.thunder {
+      font-weight: bold;
+      color: #f58e7a;
+      background-color: #007dc3; }
+    table td.hawks {
+      font-weight: bold;
+      color: red;
+      background-color: white; }
 
 .modified {
   position: absolute;
