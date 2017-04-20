@@ -11,12 +11,12 @@
           "games": null,
           "west": [
             {
-              "name": "Warriors lead 1-0",
+              "name": "Warriors lead 2-0",
               "games": null,
               "west": [{"name": "Warriors", "rank": 1}, {"name": "Blazers", "rank": 8}]
             },
             {
-              "name": "Jazz lead 1-0",
+              "name": "Series tied 1-1",
               "games": null,
               "west": [{"name": "Clippers", "rank": 4}, {"name": "Jazz", "rank": 5}]
             }
@@ -27,7 +27,7 @@
           "games": null,
           "west": [
             {
-              "name": "Rockets lead 1-0",
+              "name": "Rockets lead 2-0",
               "games": null,
               "west": [{"name": "Rockets", "rank": 3}, {"name": "Thunder", "rank": 6}]
             },
@@ -51,12 +51,12 @@
           "games": null,
           "east": [
             {
-              "name": "Bulls lead 1-0",
+              "name": "Bulls lead 2-0",
               "games": null,
               "east": [{"name": "Celtics", "rank": 1}, {"name": "Bulls", "rank": 8}]
             },
             {
-              "name": "Wizards lead 1-0",
+              "name": "Wizards lead 2-0",
               "games": null,
               "east": [{"name": "Wizards", "rank": 4}, {"name": "Hawks", "rank": 5}]
             }
@@ -67,7 +67,7 @@
           "games": null,
           "east": [
             {
-              "name": "Bucks lead 1-0",
+              "name": "Series tied 1-1",
               "games": null,
               "east": [{"name": "Raptors", "rank": 3}, {"name": "Bucks", "rank": 6}]
             },
