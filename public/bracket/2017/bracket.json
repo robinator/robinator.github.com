@@ -16,7 +16,7 @@
               "west": [{"name": "Warriors", "rank": 1}, {"name": "Blazers", "rank": 8}]
             },
             {
-              "name": "Series tied 2-2",
+              "name": "Jazz lead 3-2",
               "games": null,
               "west": [{"name": "Clippers", "rank": 4}, {"name": "Jazz", "rank": 5}]
             }
@@ -27,12 +27,12 @@
           "games": null,
           "west": [
             {
-              "name": "Rockets lead 3-1",
-              "games": null,
+              "name": "Rockets win 4-1",
+              "games": 5,
               "west": [{"name": "Rockets", "rank": 3}, {"name": "Thunder", "rank": 6}]
             },
             {
-              "name": "Series tied 2-2",
+              "name": "Spurs lead 3-2",
               "games": null,
               "west": [{"name": "Spurs", "rank": 2}, {"name": "Grizzlies", "rank": 7}]
             }
