@@ -32,8 +32,8 @@
               "west": [{"name": "Rockets", "rank": 3}, {"name": "Thunder", "rank": 6}]
             },
             {
-              "name": "Spurs lead 3-2",
-              "games": null,
+              "name": "Spurs win 4-2",
+              "games": 6,
               "west": [{"name": "Spurs", "rank": 2}, {"name": "Grizzlies", "rank": 7}]
             }
           ]
@@ -51,12 +51,12 @@
           "games": null,
           "east": [
             {
-              "name": "Series tied 2-2",
+              "name": "Celtics lead 3-2",
               "games": null,
               "east": [{"name": "Celtics", "rank": 1}, {"name": "Bulls", "rank": 8}]
             },
             {
-              "name": "Series tied 2-2",
+              "name": "Wizards lead 3-2",
               "games": null,
               "east": [{"name": "Wizards", "rank": 4}, {"name": "Hawks", "rank": 5}]
             }
@@ -67,8 +67,8 @@
           "games": null,
           "east": [
             {
-              "name": "Raptors lead 3-2",
-              "games": null,
+              "name": "Raptors win 4-2",
+              "games": 6,
               "east": [{"name": "Raptors", "rank": 3}, {"name": "Bucks", "rank": 6}]
             },
             {
