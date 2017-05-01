@@ -7,7 +7,7 @@
       "games": null,
       "west": [
         {
-          "name": "Round 2",
+          "name": "Series tied 0-0",
           "games": null,
           "west": [
             {
@@ -16,14 +16,14 @@
               "west": [{"name": "Warriors", "rank": 1}, {"name": "Blazers", "rank": 8}]
             },
             {
-              "name": "Jazz lead 3-2",
-              "games": null,
+              "name": "Jazz win 4-3",
+              "games": 7,
               "west": [{"name": "Clippers", "rank": 4}, {"name": "Jazz", "rank": 5}]
             }
           ]
         },
         {
-          "name": "Round 2",
+          "name": "Series tied 0-0",
           "games": null,
           "west": [
             {
@@ -47,23 +47,23 @@
       "games": null,
       "east": [
         {
-          "name": "Round 2",
+          "name": "Celtics lead 1-0",
           "games": null,
           "east": [
             {
-              "name": "Celtics lead 3-2",
-              "games": null,
+              "name": "Celtics win 4-2",
+              "games": 6,
               "east": [{"name": "Celtics", "rank": 1}, {"name": "Bulls", "rank": 8}]
             },
             {
-              "name": "Wizards lead 3-2",
-              "games": null,
+              "name": "Wizards win 4-2",
+              "games": 6,
               "east": [{"name": "Wizards", "rank": 4}, {"name": "Hawks", "rank": 5}]
             }
           ]
         },
         {
-          "name": "Round 2",
+          "name": "Series tied 0-0",
           "games": null,
           "east": [
             {
