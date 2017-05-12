@@ -23,8 +23,8 @@
           ]
         },
         {
-          "name": "Series tied 2-2",
-          "games": null,
+          "name": "Spurs win 4-2",
+          "games": 6,
           "west": [
             {
               "name": "Rockets win 4-1",
@@ -47,7 +47,7 @@
       "games": null,
       "east": [
         {
-          "name": "Series tied lead 2-2",
+          "name": "Celtics lead 3-2",
           "games": null,
           "east": [
             {
