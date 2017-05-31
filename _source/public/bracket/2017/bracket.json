@@ -3,8 +3,8 @@
   "games": null,
   "west": [
     {
-      "name": "Western Conference Finals",
-      "games": null,
+      "name": "Warriors win 4-0",
+      "games": 4,
       "west": [
         {
           "name": "Warriors win 4-0",
@@ -43,12 +43,12 @@
   ],
   "east": [
     {
-      "name": "Eastern Conference Finals",
-      "games": null,
+      "name": "Cavs win 4-1",
+      "games": 5,
       "east": [
         {
-          "name": "Celtics lead 3-2",
-          "games": null,
+          "name": "Celtics win 4-3",
+          "games": 7,
           "east": [
             {
               "name": "Celtics win 4-2",
