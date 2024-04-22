@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica, Verdana, sans-serif;
-  background: white;
-  color: #222222;
+  background: #fff;
+  color: #222;
   margin: 1em; }
 
 h1 {
@@ -11,10 +11,10 @@ h1 {
   font-variant: small-caps;
   background-color: #38d84e;
   padding: 0px 10px;
-  color: white; }
+  color: #fff; }
   h1:hover {
     color: #38d84e;
-    background-color: white;
+    background-color: #fff;
     cursor: pointer; }
 
 a {

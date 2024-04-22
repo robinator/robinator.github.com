@@ -21,17 +21,19 @@ svg {
 
 .node.edge circle {
   display: none; }
+
 .node circle {
   cursor: pointer;
-  fill: white;
+  fill: #fff;
   stroke: steelblue;
   stroke-width: 1.5px; }
+
 .node text {
   font: 11px sans-serif; }
 
 path.link {
   fill: none;
-  stroke: #cccccc;
+  stroke: #ccc;
   stroke-width: 1.5px; }
 
 table {
@@ -45,61 +47,85 @@ table {
   table td {
     width: 40px;
     height: 40px;
-    border: 3px solid white;
+    border: 3px solid #fff;
     font-size: 11px;
-    background-color: #eeeeee; }
+    background-color: #eee; }
     table td.name {
-      background-color: #cceeff; }
+      background-color: #CCEEFF; }
+    table td.team {
+      font-weight: bold; }
     table td.right {
-      background-color: #ccffd1; }
+      color: #37B24D !important;
+      background-color: #CCFFD1 !important; }
     table td.and1 {
-      background-color: #66ff74; }
+      color: #2F9E44 !important;
+      background-color: #66FF74 !important; }
     table td.wrong {
-      background-color: #ffd0cc; }
+      color: #FA5252 !important;
+      background-color: #FFD0CC !important; }
     table td.warriors {
-      font-weight: bold;
       color: #04529c;
       background-color: #ffcc33; }
     table td.cavs {
-      font-weight: bold;
-      color: gold;
+      color: #FFD700;
       background-color: #b3121d; }
     table td.celtics {
-      font-weight: bold;
-      color: white;
+      color: #ffffff;
       background-color: #009e60; }
     table td.raptors {
-      font-weight: bold;
-      color: white;
+      color: #ffffff;
       background-color: #2a2185; }
     table td.spurs {
-      font-weight: bold;
       color: #dae0e0;
       background-color: black; }
     table td.wizards {
-      font-weight: bold;
       color: #f22c53;
       background-color: #002244; }
     table td.jazz {
-      font-weight: bold;
-      color: #ff9100;
+      color: #FF9100;
       background-color: #00275d; }
     table td.clippers {
-      font-weight: bold;
-      color: white;
+      color: #ffffff;
       background-color: #ee2944; }
     table td.rockets {
-      font-weight: bold;
-      color: #ce1138;
+      color: #CE1138;
       background-color: #cccccc; }
     table td.thunder {
-      font-weight: bold;
       color: #f58e7a;
       background-color: #007dc3; }
     table td.hawks {
-      font-weight: bold;
-      color: red;
+      color: #FF0000;
       background-color: white; }
+    table td.suns {
+      color: #423189;
+      background-color: #ff8800; }
+    table td.mavs {
+      color: #A9A9A9;
+      background-color: #0b60ad; }
+    table td.nuggets {
+      color: #fdb827;
+      background-color: #4b90cd; }
+    table td.bucks {
+      color: #E32636;
+      background-color: #003614; }
+    table td.magic {
+      color: #ffffff;
+      background-color: #0047ab; }
+    table td.sixers {
+      color: #0046AD;
+      background-color: #d0103a; }
+    table td.knicks {
+      color: #FF7518;
+      background-color: #0953a0; }
+    table td.wolves {
+      color: #50c878;
+      background-color: #0f4d92; }
+    table td.lakers {
+      color: #F5AF1B;
+      background-color: #4a2583; }
+    table td.pacers {
+      color: #ffc322;
+      background-color: #092c57; }
 
 .modified {
   position: absolute;

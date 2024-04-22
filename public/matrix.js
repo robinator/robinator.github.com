@@ -80,7 +80,13 @@
               arr.unshift(d.score);
               arr.unshift(d.name);
               return arr;
-            }).enter().append('td').classed('wrong', function(d) {
+            }).enter().append('td').attr('class', function(d) {
+              if (typeof d === 'object') {
+                return d[0].toLowerCase();
+              }
+            }).classed('team', function(d) {
+              return typeof d === 'object';
+            }).classed('wrong', function(d) {
               return typeof d === 'object' && d[2] === -1;
             }).classed('right', function(d) {
               return typeof d === 'object' && d[2] === 1;
@@ -88,10 +94,6 @@
               return typeof d === 'object' && d[2] === 2;
             }).classed('name', function(d) {
               return typeof d === 'string';
-            }).attr('class', function(d) {
-              if (typeof d === 'object') {
-                return d[0].toLowerCase();
-              }
             }).text(function(d) {
               if (typeof d === 'string') {
                 return d;

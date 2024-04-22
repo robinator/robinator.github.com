@@ -11,6 +11,7 @@ body {
 a:link, a:visited {
   text-decoration: none;
   color: #1f1f1f; }
+
 a:hover {
   text-decoration: underline; }
 
@@ -36,15 +37,15 @@ footer {
 
 #about {
   font-size: 1.5em;
-  border-top: 1px solid gray;
+  border-top: 1px solid #808080;
   line-height: 1.5em;
   text-align: justify;
-  letter-spacing: -0.5px;
+  letter-spacing: -.5px;
   font-family: "Arno Pro", "Baskerville", Times, serif; }
 
 #contact {
   font-size: 60px;
   text-align: center;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
   padding: 20px 0; }

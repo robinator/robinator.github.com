@@ -1,0 +1,84 @@
+{
+  "name": "???",
+  "games": null,
+  "west": [
+    {
+      "name": "???",
+      "games": null,
+      "west": [
+        {
+          "name": "???",
+          "games": null,
+          "west": [
+            {
+              "name": "Thunder lead 1-0",
+              "games": null,
+              "west": [{"name": "Thunder", "rank": 1}, {"name": "Pelicans", "rank": 8}]
+            },
+            {
+              "name": "Clippers lead 1-0",
+              "games": null,
+              "west": [{"name": "Clippers", "rank": 4}, {"name": "Mavs", "rank": 5}]
+            }
+          ]
+        },
+        {
+          "name": "???",
+          "games": null,
+          "west": [
+            {
+              "name": "Wolves lead 1-0",
+              "games": null,
+              "west": [{"name": "Wolves", "rank": 3}, {"name": "Suns", "rank": 6}]
+            },
+            {
+              "name": "Nuggets lead 1-0",
+              "games": null,
+              "west": [{"name": "Nuggets", "rank": 2}, {"name": "Lakers", "rank": 7}]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "east": [
+    {
+      "name": "???",
+      "games": null,
+      "east": [
+        {
+          "name": "???",
+          "games": null,
+          "east": [
+            {
+              "name": "Celtics lead 1-0",
+              "games": null,
+              "east": [{"name": "Celtics", "rank": 1}, {"name": "Heat", "rank": 8}]
+            },
+            {
+              "name": "Cavs lead 1-0",
+              "games": null,
+              "east": [{"name": "Cavs", "rank": 4}, {"name": "Magic", "rank": 5}]
+            }
+          ]
+        },
+        {
+          "name": "???",
+          "games": null,
+          "east": [
+            {
+              "name": "Bucks lead 1-0",
+              "games": null,
+              "east": [{"name": "Bucks", "rank": 3}, {"name": "Pacers", "rank": 6}]
+            },
+            {
+              "name": "Knicks lead 1-0",
+              "games": null,
+              "east": [{"name": "Knicks", "rank": 2}, {"name": "Sixers", "rank": 7}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

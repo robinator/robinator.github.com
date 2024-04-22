@@ -1,19 +1,14 @@
 (function() {
   var Bracket,
-    __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+    bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
   Bracket = (function() {
-
     function Bracket(options) {
       this.options = options;
-      this._update = __bind(this._update, this);
-
-      this._rebuildChildren = __bind(this._rebuildChildren, this);
-
-      this._calcLeft = __bind(this._calcLeft, this);
-
-      this._elbow = __bind(this._elbow, this);
-
+      this._update = bind(this._update, this);
+      this._rebuildChildren = bind(this._rebuildChildren, this);
+      this._calcLeft = bind(this._calcLeft, this);
+      this._elbow = bind(this._elbow, this);
       this.width = window.innerWidth * 0.95;
       this.halfWidth = this.width / 2;
       this.height = 500;
@@ -50,21 +45,21 @@
     };
 
     Bracket.prototype._getChildren = function(d) {
-      var a, game, i, _i, _j, _len, _len1, _ref, _ref1;
+      var a, game, i, j, k, len, len1, ref, ref1;
       a = [];
       if (d.west) {
-        _ref = d.west;
-        for (i = _i = 0, _len = _ref.length; _i < _len; i = ++_i) {
-          game = _ref[i];
+        ref = d.west;
+        for (i = j = 0, len = ref.length; j < len; i = ++j) {
+          game = ref[i];
           d.west[i].isRight = false;
           d.west[i].parent = d;
           a.push(d.west[i]);
         }
       }
       if (d.east) {
-        _ref1 = d.east || [];
-        for (i = _j = 0, _len1 = _ref1.length; _j < _len1; i = ++_j) {
-          game = _ref1[i];
+        ref1 = d.east || [];
+        for (i = k = 0, len1 = ref1.length; k < len1; i = ++k) {
+          game = ref1[i];
           d.east[i].isRight = true;
           d.east[i].parent = d;
           a.push(d.east[i]);
@@ -81,27 +76,30 @@
     };
 
     Bracket.prototype._toArray = function(item, arr) {
-      var c, _i, _len, _ref;
+      var c, j, len, ref;
       arr = arr || [];
       arr.push(item);
-      _ref = item.children || [];
-      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-        c = _ref[_i];
+      ref = item.children || [];
+      for (j = 0, len = ref.length; j < len; j++) {
+        c = ref[j];
         this._toArray(c, arr);
       }
       return arr;
     };
 
     Bracket.prototype._update = function(source) {
-      var link, node, nodeEnter, nodeUpdate, nodes,
-        _this = this;
+      var link, node, nodeEnter, nodeUpdate, nodes;
       nodes = this._toArray(source);
-      nodes.forEach(function(d) {
-        return d.y = d.depth * 140 + _this.halfWidth;
-      });
-      node = this.vis.selectAll('g.node').data(nodes, function(d) {
-        return d.id || (d.id = ++_this.i);
-      });
+      nodes.forEach((function(_this) {
+        return function(d) {
+          return d.y = d.depth * 140 + _this.halfWidth;
+        };
+      })(this));
+      node = this.vis.selectAll('g.node').data(nodes, (function(_this) {
+        return function(d) {
+          return d.id || (d.id = ++_this.i);
+        };
+      })(this));
       nodeEnter = node.enter().append('g').attr('class', 'node').classed('edge', function(d) {
         return d.children.length === 0;
       }).classed('east', function(d) {
@@ -115,7 +113,7 @@
       nodeEnter.append('text').text(function(d) {
         if (d.rank != null) {
           if (d.isRight) {
-            return "" + d.name + " (" + d.rank + ")";
+            return d.name + " (" + d.rank + ")";
           } else {
             return "(" + d.rank + ") " + d.name;
           }
@@ -123,11 +121,13 @@
           return d.name;
         }
       }).style('fill-opacity', 1e-6);
-      nodeUpdate = node.transition().duration(this.duration).attr('transform', function(d) {
-        var p;
-        p = _this._calcLeft(d);
-        return "translate(" + p.y + "," + p.x + ")";
-      });
+      nodeUpdate = node.transition().duration(this.duration).attr('transform', (function(_this) {
+        return function(d) {
+          var p;
+          p = _this._calcLeft(d);
+          return "translate(" + p.y + "," + p.x + ")";
+        };
+      })(this));
       nodeUpdate.select('circle').attr('r', 4.5).style('fill', function(d) {
         if (d.games != null) {
           return 'lightsteelblue';
@@ -161,52 +161,57 @@
       link = this.vis.selectAll('path.link').data(this.tree.links(nodes), function(d) {
         return d.target.id;
       });
-      link.enter().insert('path', 'g').attr('class', 'link').attr('d', function(d) {
-        var o;
-        o = {
-          x: source.x0,
-          y: source.y0
-        };
-        return _this._elbow({
-          source: o,
-          target: o
-        });
-      });
-      link.transition().duration(this.duration).attr('d', this._elbow);
-      return link.exit().transition().duration(this.duration).attr('d', function(d) {
-        var o;
-        o = _this._calcLeft(d.source || source);
-        if (d.source.isRight) {
-          return o.y -= _this.halfWidth - (d.target.y - d.source.y);
-        } else {
-          o.y += _this.halfWidth - (d.target.y - d.source.y);
+      link.enter().insert('path', 'g').attr('class', 'link').attr('d', (function(_this) {
+        return function(d) {
+          var o;
+          o = {
+            x: source.x0,
+            y: source.y0
+          };
           return _this._elbow({
             source: o,
             target: o
           });
-        }
-      }).remove();
+        };
+      })(this));
+      link.transition().duration(this.duration).attr('d', this._elbow);
+      return link.exit().transition().duration(this.duration).attr('d', (function(_this) {
+        return function(d) {
+          var o;
+          o = _this._calcLeft(d.source || source);
+          if (d.source.isRight) {
+            return o.y -= _this.halfWidth - (d.target.y - d.source.y);
+          } else {
+            o.y += _this.halfWidth - (d.target.y - d.source.y);
+            return _this._elbow({
+              source: o,
+              target: o
+            });
+          }
+        };
+      })(this)).remove();
     };
 
     Bracket.prototype.draw = function() {
-      var _this = this;
-      return d3.json(this.data, function(json) {
-        var root, t1, t2;
-        root = json;
-        root.x0 = _this.height / 2;
-        root.y0 = _this.width / 2;
-        t1 = d3.layout.tree().size([_this.height, _this.halfWidth]).children(function(d) {
-          return d.west;
-        });
-        t2 = d3.layout.tree().size([_this.height, _this.halfWidth]).children(function(d) {
-          return d.east;
-        });
-        t1.nodes(root);
-        t2.nodes(root);
-        _this._rebuildChildren(root);
-        root.isRight = false;
-        return _this._update(root);
-      });
+      return d3.json(this.data, (function(_this) {
+        return function(json) {
+          var root, t1, t2;
+          root = json;
+          root.x0 = _this.height / 2;
+          root.y0 = _this.width / 2;
+          t1 = d3.layout.tree().size([_this.height, _this.halfWidth]).children(function(d) {
+            return d.west;
+          });
+          t2 = d3.layout.tree().size([_this.height, _this.halfWidth]).children(function(d) {
+            return d.east;
+          });
+          t1.nodes(root);
+          t2.nodes(root);
+          _this._rebuildChildren(root);
+          root.isRight = false;
+          return _this._update(root);
+        };
+      })(this));
     };
 
     return Bracket;

@@ -56,11 +56,12 @@ class Matrix
                )
                .enter()
                .append('td')
+               .attr('class',    (d) -> d[0].toLowerCase() if typeof d == 'object')
+               .classed('team',  (d) -> typeof d == 'object')
                .classed('wrong', (d) -> typeof d == 'object' && d[2] == -1)
                .classed('right', (d) -> typeof d == 'object' && d[2] == 1)
                .classed('and1',  (d) -> typeof d == 'object' && d[2] == 2)
                .classed('name',  (d) -> typeof d == 'string')
-               .attr('class',    (d) -> d[0].toLowerCase() if typeof d == 'object')
                .text((d) =>
                  if typeof d == 'string'
                    d

@@ -1,46 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8" />
     <title>Rob Law - Computer Programmer</title>
-    <link href='/public/bracket.css' rel='stylesheet'>
-    <script src='https://d3js.org/d3.v2.min.js'></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <link href="/public/bracket.css" rel="stylesheet" />
+    <script src="https://d3js.org/d3.v2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   </head>
   <body>
-    <h1>NBA Playoffs 2013</h1>
-    <div id='bracket'></div>
-    <div id='matrix'>
+    <h1>
+      NBA Playoffs 2013
+    </h1>
+    <div id="bracket"></div>
+    <div id="matrix">
       <table>
         <thead>
-          <th>Name</th>
-          <th>Score</th>
-          <th>Possible</th>
-          <th colspan='4'>Round 1: West</th>
-          <th colspan='4'>Round 1: East</th>
-          <th colspan='2'>Round 2: West</th>
-          <th colspan='2'>Round 2: East</th>
-          <th>Finals: West</th>
-          <th>Finals: East</th>
-          <th>The Finals</th>
+          <th>
+            Name
+          </th>
+          <th>
+            Score
+          </th>
+          <th>
+            Possible
+          </th>
+          <th colspan="4">
+            Round 1: West
+          </th>
+          <th colspan="4">
+            Round 1: East
+          </th>
+          <th colspan="2">
+            Round 2: West
+          </th>
+          <th colspan="2">
+            Round 2: East
+          </th>
+          <th>
+            Finals: West
+          </th>
+          <th>
+            Finals: East
+          </th>
+          <th>
+            The Finals
+          </th>
         </thead>
         <tbody></tbody>
       </table>
     </div>
-    <script src='/public/bracket.js'></script>
-    <script src='/public/matrix.js'></script>
+    <script src="/public/bracket.js"></script>
+    <script src="/public/matrix.js"></script>
     <script>
       window.bracket = new Bracket({data: '/public/bracket/2013/bracket.json'});
       window.matrix = new Matrix({actualFile: '/public/bracket/2013/actual.json', guessesFile: '/public/bracket/2013/guesses.json'})
     </script>
-    <div class='modified'>
+    <div class="modified">
       Updated at:
-      <script>document.write(document.lastModified);</script>
+      <script>
+        document.write(document.lastModified);
+      </script>
     </div>
     <footer>
-      <p><a href='http://robmadethis.com'>robmadethis</a>
-      with
-      <a href='http://validator.w3.org/check/referer'>HTML</a>,      <a href='http://jigsaw.w3.org/css-validator/check/referer?profile=css3'>CSS</a>, and      <a href='http://robmadethis.com/snack'>snack</a></p>
+      <p>
+        <a href="http://robmadethis.com">robmadethis</a> with <a href="http://validator.w3.org/check/referer">HTML</a> ,<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS</a> , and <a href="http://robmadethis.com/snack">snack</a>
+      </p>
     </footer>
   </body>
 </html>
