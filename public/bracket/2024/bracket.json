@@ -16,7 +16,7 @@
               "west": [{"name": "Thunder", "rank": 1}, {"name": "Pelicans", "rank": 8}]
             },
             {
-              "name": "Series tied 1-1",
+              "name": "Mavs lead 2-1",
               "games": null,
               "west": [{"name": "Clippers", "rank": 4}, {"name": "Mavs", "rank": 5}]
             }
@@ -27,7 +27,7 @@
           "games": null,
           "west": [
             {
-              "name": "Wolves lead 2-0",
+              "name": "Wolves lead 3-0",
               "games": null,
               "west": [{"name": "Wolves", "rank": 3}, {"name": "Suns", "rank": 6}]
             },
@@ -67,7 +67,7 @@
           "games": null,
           "east": [
             {
-              "name": "Series tied 1-1",
+              "name": "Pacers lead 2-1",
               "games": null,
               "east": [{"name": "Bucks", "rank": 3}, {"name": "Pacers", "rank": 6}]
             },
