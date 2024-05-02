@@ -16,7 +16,7 @@
               "west": [{"name": "Thunder", "rank": 1}, {"name": "Pelicans", "rank": 8}]
             },
             {
-              "name": "Series tied 2-2",
+              "name": "Mavs win 4-2",
               "games": null,
               "west": [{"name": "Clippers", "rank": 4}, {"name": "Mavs", "rank": 5}]
             }
@@ -51,12 +51,12 @@
           "games": null,
           "east": [
             {
-              "name": "Celtics lead 3-1",
+              "name": "Celtics win 4-1",
               "games": null,
               "east": [{"name": "Celtics", "rank": 1}, {"name": "Heat", "rank": 8}]
             },
             {
-              "name": "Series tied 2-2",
+              "name": "Series tied 3-3",
               "games": null,
               "east": [{"name": "Cavs", "rank": 4}, {"name": "Magic", "rank": 5}]
             }
@@ -67,12 +67,12 @@
           "games": null,
           "east": [
             {
-              "name": "Pacers lead 3-1",
+              "name": "Pacers win 4-2",
               "games": null,
               "east": [{"name": "Bucks", "rank": 3}, {"name": "Pacers", "rank": 6}]
             },
             {
-              "name": "Knicks lead 3-1",
+              "name": "Knicks win 4-2",
               "games": null,
               "east": [{"name": "Knicks", "rank": 2}, {"name": "Sixers", "rank": 7}]
             }
