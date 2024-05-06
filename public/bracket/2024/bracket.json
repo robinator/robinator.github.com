@@ -23,7 +23,7 @@
           ]
         },
         {
-          "name": "???",
+          "name": "Wolves lead 1-0",
           "games": null,
           "west": [
             {
@@ -56,7 +56,7 @@
               "east": [{"name": "Celtics", "rank": 1}, {"name": "Heat", "rank": 8}]
             },
             {
-              "name": "Series tied 3-3",
+              "name": "Cavs win 4-3",
               "games": null,
               "east": [{"name": "Cavs", "rank": 4}, {"name": "Magic", "rank": 5}]
             }
