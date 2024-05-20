@@ -1,39 +1,39 @@
 {
-  "name": "???",
+  "name": "Series tied 0-0",
   "games": null,
   "west": [
     {
-      "name": "???",
-      "games": null,
+      "name": "Mavs win 4-1",
+      "games": 5,
       "west": [
         {
-          "name": "???",
-          "games": null,
+          "name": "Mavs win 4-2",
+          "games": 6,
           "west": [
             {
               "name": "Thunder win 4-0",
-              "games": null,
+              "games": 4,
               "west": [{"name": "Thunder", "rank": 1}, {"name": "Pelicans", "rank": 8}]
             },
             {
               "name": "Mavs win 4-2",
-              "games": null,
+              "games": 6,
               "west": [{"name": "Clippers", "rank": 4}, {"name": "Mavs", "rank": 5}]
             }
           ]
         },
         {
-          "name": "Wolves lead 1-0",
-          "games": null,
+          "name": "Wolves win 4-3",
+          "games": 7,
           "west": [
             {
               "name": "Wolves win 4-0",
-              "games": null,
+              "games": 4,
               "west": [{"name": "Wolves", "rank": 3}, {"name": "Suns", "rank": 6}]
             },
             {
               "name": "Nuggets win 4-1",
-              "games": null,
+              "games": 5,
               "west": [{"name": "Nuggets", "rank": 2}, {"name": "Lakers", "rank": 7}]
             }
           ]
@@ -43,37 +43,37 @@
   ],
   "east": [
     {
-      "name": "???",
-      "games": null,
+      "name": "Celtics win 4-0",
+      "games": 4,
       "east": [
         {
-          "name": "???",
-          "games": null,
+          "name": "Celtics win 4-1",
+          "games": 5,
           "east": [
             {
               "name": "Celtics win 4-1",
-              "games": null,
+              "games": 5,
               "east": [{"name": "Celtics", "rank": 1}, {"name": "Heat", "rank": 8}]
             },
             {
               "name": "Cavs win 4-3",
-              "games": null,
+              "games": 7,
               "east": [{"name": "Cavs", "rank": 4}, {"name": "Magic", "rank": 5}]
             }
           ]
         },
         {
-          "name": "???",
-          "games": null,
+          "name": "Pacers win 4-3",
+          "games": 7,
           "east": [
             {
               "name": "Pacers win 4-2",
-              "games": null,
+              "games": 6,
               "east": [{"name": "Bucks", "rank": 3}, {"name": "Pacers", "rank": 6}]
             },
             {
               "name": "Knicks win 4-2",
-              "games": null,
+              "games": 6,
               "east": [{"name": "Knicks", "rank": 2}, {"name": "Sixers", "rank": 7}]
             }
           ]
